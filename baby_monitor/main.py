@@ -38,12 +38,24 @@ i.e. the directory containing main.py):
 4. Run the application:
    python main.py
 
+Real-time simulation demo:
+In addition to the interactive sliders, simulation.py runs a time-driven
+demo. A virtual baby sleeps in a cot while audio, movement and the time since
+the last feeding evolve every simulated minute. The fuzzy system recomputes
+the wake-up risk on every tick, and a closed loop soothes the baby when the
+risk gets high. Run it with:
+   python simulation.py
+
+Main flags: --seed N (reproducible run), --feeding MIN (initial time since
+the last feeding), --interval MS (frame delay) and --save PATH with
+--frames N (render a GIF instead of opening a window).
+
 Documentation (generated from docstrings with pdoc):
 - Generate static HTML into the docs/ directory:
-  python -m pdoc -o docs fuzzy_logic main
+  python -m pdoc -o docs fuzzy_logic main simulation
 
 - Or browse it live in the web browser:
-  python -m pdoc fuzzy_logic main
+  python -m pdoc fuzzy_logic main simulation
 
 Note:
 The FuzzySystem is initialized with show_banner=False

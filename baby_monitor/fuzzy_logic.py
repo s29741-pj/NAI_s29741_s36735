@@ -4,8 +4,9 @@ Fuzzy Logic Module for Intelligent Baby Monitor Simulator
 This module defines and configures the fuzzy inference system used to estimate
 the wake-up risk of an infant based on sensor inputs.
 
-The fuzzy system can be imported and used by both the GUI application and
-the coverage testing tools, ensuring consistency across the project.
+The fuzzy system is shared by the interactive slider GUI (main.py) and the
+time-driven simulation (simulation.py), ensuring that both use exactly the
+same membership functions and rules.
 
 Input variables:
 - Audio: Change in RMS audio level, measured in dB/s (range: -100 to 100)
@@ -34,9 +35,16 @@ from simpful import (
 )
 
 
-def create_fuzzy_system():
+def create_fuzzy_system(save_figure=False):
     """
     Create and configure the fuzzy inference system for baby monitoring.
+    
+    Args:
+        save_figure (bool): If True, plot the membership functions of all
+                            linguistic variables and save them to
+                            'inputs.png' in the current working directory.
+                            Default is False, so creating the system has no
+                            side effects on the file system.
     
     Returns:
         FuzzySystem: A configured Simpful FuzzySystem instance with all
@@ -126,7 +134,7 @@ def create_fuzzy_system():
     )
     
     feeding_long_time = FuzzySet(
-        function=Gaussian_MF(mu=240, sigma=60), 
+        function=Gaussian_MF(mu=240, sigma=60),
         term="long_time"
     )
     
@@ -205,7 +213,9 @@ def create_fuzzy_system():
     ]
 
     fs.add_rules(rules)
-    fs.produce_figure(outputfile='inputs.png')
+
+    if save_figure:
+        fs.produce_figure(outputfile="inputs.png")
     
     return fs
 
