@@ -22,7 +22,7 @@ Funkcje przynależności i reguły są w `fuzzy_logic.py`. Wykresy funkcji przyn
 ## Dwie aplikacje
 
 - `main.py` – interaktywne **suwaki**: ustawiasz audio, ruch i czas od karmienia, a system od razu pokazuje ryzyko.
-- `simulation.py` – **symulacja w czasie rzeczywistym**: wirtualne dziecko śpi w łóżeczku, a dźwięk, ruch i czas od karmienia zmieniają się co symulowaną minutę. Losowe zdarzenia (płacz, poruszenie) podnoszą ryzyko. Gdy ryzyko jest wysokie, włącza się „kołysanie" i ryzyko spada. Przyciski: Start/Pause, Feed, Noise, Reset oraz suwak początkowego czasu od karmienia.
+- `simulation.py` – **symulacja w czasie rzeczywistym - FULLY VIBE CODED!**: wirtualne dziecko śpi w łóżeczku, a dźwięk, ruch i czas od karmienia zmieniają się co symulowaną minutę. Losowe zdarzenia (płacz, poruszenie) podnoszą ryzyko. Gdy ryzyko jest wysokie, włącza się „kołysanie" i ryzyko spada. Przyciski: Start/Pause, Feed, Noise, Reset oraz suwak początkowego czasu od karmienia.
 
 ![Symulacja](simulation_demo.gif)
 
