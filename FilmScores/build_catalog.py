@@ -19,7 +19,7 @@ Rozwiązanie
    ``"Dom z papieru": {"query": "Money Heist", "year": 2017, "type": "series"}``.
    Podpowiedź to wyłącznie *wskazówka wyszukiwania* (tłumaczenie tytułu, rok
    do rozróżnienia remake'ów). Wszystkie dane o filmie pochodzą z odpowiedzi OMDb,
-3. próbuje po kolei: ``t=tytuł&y=rok&type=typ`` -> ``t=tytuł`` (bez roku) ->
+3. próbuje po kolei: ``t=tytuł&y=rok&type=typ`` -> to samo bez roku i/lub typu ->
    wyszukiwanie ``s=tytuł``. Dopasowania mniej pewne trafiają do raportu,
 4. tytuły, które OMDb wskazało jako ten sam ``imdbID`` (np. "Rick & Morty"
    i "Rick i Morty"), są automatycznie scalane,
@@ -32,8 +32,7 @@ ponowne uruchomienie nie zużywa limitu zapytań.
 
 Autorzy
 -----
-Jakub Kolad
-Igor Czeczot
+Jakub Kolad, Igor Czeczot
 
 Użycie
 ------
@@ -77,18 +76,28 @@ def resolve(client, raw_title, hint):
     query = hint.get("query", raw_title)
     year, kind = hint.get("year"), hint.get("type")
 
-    data = client.find(query, year, kind)
-    if data:
-        return data, "t+rok" if year else "t", []
-
+    # Podpowiedź (rok, typ) może być błędna, więc kolejne próby ją luzują.
+    attempts = [(year, kind)]
     if year:
-        data = client.find(query, None, kind)
+        attempts.append((None, kind))
+    if kind:
+        attempts.append((year, None))
+    if year and kind:
+        attempts.append((None, None))
+    for i, (y, k) in enumerate(attempts):
+        data = client.find(query, y, k)
         if data:
-            return (
-                data,
-                "t (bez roku)",
-                [f"rok w OMDb ({data.get('Year')}) różni się od podpowiedzi ({year})"],
-            )
+            warns = []
+            if year and parse_year(data.get("Year")) != year:
+                warns.append(
+                    f"rok w OMDb ({data.get('Year')}) różni się od podpowiedzi ({year})"
+                )
+            if kind and data.get("Type") != kind:
+                warns.append(
+                    f"typ w OMDb ({data.get('Type')}) różni się od podpowiedzi ({kind})"
+                )
+            how = ("t+rok" if year else "t") if i == 0 else "t (poluzowane)"
+            return data, how, warns
 
     candidates = client.search(query, year, kind) or client.search(query, None, kind)
     if candidates:

@@ -2701,11 +2701,19 @@
   "imdbRating": "N/A",
   "imdbVotes": "N/A"
  },
+ "plot=short&t=Expend4bles": {
+  "Error": "Movie not found!",
+  "Response": "False"
+ },
  "plot=short&t=Expend4bles&type=movie": {
   "Error": "Movie not found!",
   "Response": "False"
  },
  "plot=short&t=Expend4bles&type=movie&y=2023": {
+  "Error": "Movie not found!",
+  "Response": "False"
+ },
+ "plot=short&t=Expend4bles&y=2023": {
   "Error": "Movie not found!",
   "Response": "False"
  },
@@ -3908,14 +3916,6 @@
   "imdbRating": "6.9",
   "imdbVotes": "463,324"
  },
- "plot=short&t=Hound%27s+Hill&type=movie": {
-  "Error": "Movie not found!",
-  "Response": "False"
- },
- "plot=short&t=Hound%27s+Hill&type=movie&y=2025": {
-  "Error": "Movie not found!",
-  "Response": "False"
- },
  "plot=short&t=Hound%27s+Hill&type=series&y=2025": {
   "Actors": "Kamila Urzedowska, Andrzej Konopka, Robert Wieckiewicz",
   "Awards": "N/A",
@@ -4784,11 +4784,19 @@
   "imdbRating": "5.4",
   "imdbVotes": "2,367"
  },
+ "plot=short&t=Lejdis": {
+  "Error": "Movie not found!",
+  "Response": "False"
+ },
  "plot=short&t=Lejdis&type=movie": {
   "Error": "Movie not found!",
   "Response": "False"
  },
  "plot=short&t=Lejdis&type=movie&y=2008": {
+  "Error": "Movie not found!",
+  "Response": "False"
+ },
+ "plot=short&t=Lejdis&y=2008": {
   "Error": "Movie not found!",
   "Response": "False"
  },
@@ -4925,11 +4933,19 @@
   "imdbRating": "5.6",
   "imdbVotes": "86,125"
  },
+ "plot=short&t=Mall+Girls": {
+  "Error": "Movie not found!",
+  "Response": "False"
+ },
  "plot=short&t=Mall+Girls&type=movie": {
   "Error": "Movie not found!",
   "Response": "False"
  },
  "plot=short&t=Mall+Girls&type=movie&y=2009": {
+  "Error": "Movie not found!",
+  "Response": "False"
+ },
+ "plot=short&t=Mall+Girls&y=2009": {
   "Error": "Movie not found!",
   "Response": "False"
  },
@@ -6177,6 +6193,33 @@
   "imdbVotes": "716,348",
   "totalSeasons": "12"
  },
+ "plot=short&t=Rojst": {
+  "Actors": "Piotr Fronczewski, Magdalena Kolesnik, Agnieszka Zulewska",
+  "Awards": "N/A",
+  "BoxOffice": "N/A",
+  "Country": "Poland",
+  "DVD": "N/A",
+  "Director": "Michal Marczak",
+  "Genre": "Short, Crime, Drama",
+  "Language": "Polish",
+  "Metascore": "N/A",
+  "Plot": "N/A",
+  "Poster": "N/A",
+  "Production": "N/A",
+  "Rated": "N/A",
+  "Ratings": [],
+  "Released": "12 Feb 2019",
+  "Response": "True",
+  "Runtime": "11 min",
+  "Title": "Rojst Prolog Serialu",
+  "Type": "movie",
+  "Website": "N/A",
+  "Writer": "Anna Kazejak, Michal Marczak",
+  "Year": "2019",
+  "imdbID": "tt12384518",
+  "imdbRating": "N/A",
+  "imdbVotes": "N/A"
+ },
  "plot=short&t=Rojst&type=series": {
   "Error": "Series not found!",
   "Response": "False"
@@ -6185,12 +6228,8 @@
   "Error": "Series not found!",
   "Response": "False"
  },
- "plot=short&t=Rojst+Prolog+Serialu&type=series": {
-  "Error": "Series not found!",
-  "Response": "False"
- },
- "plot=short&t=Rojst+Prolog+Serialu&type=series&y=2018": {
-  "Error": "Series not found!",
+ "plot=short&t=Rojst&y=2018": {
+  "Error": "Movie not found!",
   "Response": "False"
  },
  "plot=short&t=Rome&type=series&y=2005": {
@@ -9400,7 +9439,7 @@
   "Year": "2019",
   "imdbID": "tt1843303",
   "imdbRating": "5.1",
-  "imdbVotes": "12,091"
+  "imdbVotes": "12,342"
  },
  "plot=short&t=The+VelociPastor&type=movie&y=2017": {
   "Error": "Movie not found!",
@@ -10174,10 +10213,6 @@
   "imdbRating": "2.8",
   "imdbVotes": "752"
  },
- "plot=short&t=Wzg%C3%B3rze+ps%C3%B3w&type=movie": {
-  "Error": "Movie not found!",
-  "Response": "False"
- },
  "plot=short&t=Young+Sheldon&type=series&y=2017": {
   "Actors": "Iain Armitage, Zoe Perry, Lance Barber",
   "Awards": "8 wins & 31 nominations total",
@@ -10247,14 +10282,6 @@
   "Error": "Movie not found!",
   "Response": "False"
  },
- "s=Hound%27s+Hill&type=movie": {
-  "Error": "Movie not found!",
-  "Response": "False"
- },
- "s=Hound%27s+Hill&type=movie&y=2025": {
-  "Error": "Movie not found!",
-  "Response": "False"
- },
  "s=Lejdis&type=movie": {
   "Error": "Movie not found!",
   "Response": "False"
@@ -10268,26 +10295,6 @@
   "Response": "False"
  },
  "s=Mall+Girls&type=movie&y=2009": {
-  "Error": "Movie not found!",
-  "Response": "False"
- },
- "s=Rojst&type=series": {
-  "Error": "Series not found!",
-  "Response": "False"
- },
- "s=Rojst&type=series&y=2018": {
-  "Error": "Series not found!",
-  "Response": "False"
- },
- "s=Rojst+Prolog+Serialu&type=series": {
-  "Error": "Series not found!",
-  "Response": "False"
- },
- "s=Rojst+Prolog+Serialu&type=series&y=2018": {
-  "Error": "Series not found!",
-  "Response": "False"
- },
- "s=Wzg%C3%B3rze+ps%C3%B3w&type=movie": {
   "Error": "Movie not found!",
   "Response": "False"
  }

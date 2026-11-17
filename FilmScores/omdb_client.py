@@ -15,9 +15,9 @@ Darmowy klucz ma limit 1000 zapytań dziennie, a dzięki cache kolejne
 uruchomienia nie zużywają limitu i działają bez sieci. Plik cache jest
 częścią repozytorium, więc wyniki są powtarzalne.
 
-Autor
+Autorzy
 -----
-Jakub Kolad
+Jakub Kolad, Igor Czeczot
 
 Użycie
 ------
@@ -39,7 +39,9 @@ except ImportError:  # certifi jest opcjonalne, ale zalecane (patrz README)
     certifi = None
 
 API_URL = "https://www.omdbapi.com/"
-DEFAULT_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "omdb_cache.json")
+DEFAULT_CACHE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "data", "omdb_cache.json"
+)
 
 
 class OmdbClient:
@@ -59,7 +61,9 @@ class OmdbClient:
         # Zaufane certyfikaty z paczki certifi zamiast magazynu systemowego, który
         # na starszych instalacjach Windows bywa nieaktualny
         # ("CERTIFICATE_VERIFY_FAILED: certificate has expired").
-        self.ssl_context = ssl.create_default_context(cafile=certifi.where() if certifi else None)
+        self.ssl_context = ssl.create_default_context(
+            cafile=certifi.where() if certifi else None
+        )
 
     def _load_cache(self):
         """Wczytuje cache z dysku (pusty słownik, jeśli plik nie istnieje)."""
@@ -83,20 +87,25 @@ class OmdbClient:
         """
         query = urllib.parse.urlencode({"apikey": self.api_key, **params})
         try:
-            with urllib.request.urlopen(f"{API_URL}?{query}", timeout=self.timeout,
-                                        context=self.ssl_context) as resp:
+            with urllib.request.urlopen(
+                f"{API_URL}?{query}", timeout=self.timeout, context=self.ssl_context
+            ) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
         except (urllib.error.URLError, TimeoutError) as exc:
             hint = ""
             if "CERTIFICATE_VERIFY_FAILED" in str(exc):
-                hint = " (zainstaluj aktualne certyfikaty: pip install --upgrade certifi)"
+                hint = (
+                    " (zainstaluj aktualne certyfikaty: pip install --upgrade certifi)"
+                )
             raise RuntimeError(f"Błąd połączenia z OMDb: {exc}{hint}") from exc
         error = data.get("Error", "")
         if error == "Invalid API key!":
             raise RuntimeError("Nieprawidłowy klucz OMDb API")
         if error == "Request limit reached!":
-            raise RuntimeError("Przekroczono dzienny limit zapytań OMDb (1000). Uruchom ponownie jutro: "
-                               "dotychczasowe odpowiedzi są w cache.")
+            raise RuntimeError(
+                "Przekroczono dzienny limit zapytań OMDb (1000). Uruchom ponownie jutro: "
+                "dotychczasowe odpowiedzi są w cache."
+            )
         return data
 
     def query(self, **params):
@@ -114,7 +123,9 @@ class OmdbClient:
         if key in self.cache:
             return self.cache[key]
         if not self.api_key:
-            raise RuntimeError("Brak klucza OMDb API (--api-key lub zmienna OMDB_API_KEY)")
+            raise RuntimeError(
+                "Brak klucza OMDb API (--api-key lub zmienna OMDB_API_KEY)"
+            )
         data = self._request(**params)
         self.requests_made += 1
         self.cache[key] = data

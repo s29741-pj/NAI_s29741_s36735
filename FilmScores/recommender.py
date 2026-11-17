@@ -47,8 +47,7 @@ User-based collaborative filtering, rozwinięcie demo z zajęć
 
 Autorzy
 -----
-Jakub Kolad
-Igor Czeczot
+Jakub Kolad, Igor Czeczot
 
 Użycie
 ------
@@ -56,13 +55,21 @@ Użycie
     python build_catalog.py --api-key KLUCZ           # xlsx + OMDb -> data/catalog.json
     python preprocess.py                              # xlsx -> data/ratings.json
     python recommender.py --list-users
-    python recommender.py --user "Jakub Kolad"        # obie metryki + dane o filmach
-    python recommender.py --user "Jakub Kolad" --score-type Pearson
+    python recommender.py --user "Jakub Kolad, Igor Czeczot"        # obie metryki + dane o filmach
 
 Pliki ``data/catalog.json`` i ``data/ratings.json`` są częścią repozytorium,
 więc samo ``recommender.py`` działa bez klucza OMDb i bez internetu.
 
-
+Referencje
+----------
+* Demo z zajęć: ``compute_scores.py`` / ``ratings.json``
+* Resnick P. i in., "GroupLens: An Open Architecture for Collaborative
+  Filtering of Netnews", CSCW 1994 (wzór predykcji)
+* Herlocker J. i in., "An Algorithmic Framework for Performing
+  Collaborative Filtering", SIGIR 1999 (significance weighting)
+* I. Chatterjee, "A Comparative Study of Clustering Algorithms",
+  Analytics Vidhya (metryki odległości)
+* OMDb API: https://www.omdbapi.com/
 """
 
 import argparse
@@ -79,6 +86,7 @@ MIN_COMMON = 2  # minimalna liczba wspólnych filmów, by liczyć podobieństwo
 SHRINK = 5  # od tylu wspólnych filmów podobieństwo nie jest osłabiane
 DAMPING = 0.5  # ściąganie przewidywań słabo potwierdzonych do średniej
 METRICS = ("Euclidean", "Pearson")
+TOP = 5  # liczba rekomendacji i antyrekomendacji
 
 
 def load_json(path):
@@ -147,9 +155,6 @@ def pearson_score(dataset, user1, user2):
     return sxy / math.sqrt(sxx * syy), n
 
 
-SCORE_FUNCTIONS = {"Euclidean": euclidean_score, "Pearson": pearson_score}
-
-
 def similarity(dataset, user1, user2, metric):
     """Podobieństwo osłabione dla małej liczby wspólnych filmów.
 
@@ -159,7 +164,10 @@ def similarity(dataset, user1, user2, metric):
     :param metric: ``"Euclidean"`` lub ``"Pearson"``
     :return: krotka ``(ważone_podobieństwo, surowe_podobieństwo, liczba_wspólnych)``
     """
-    raw, n = SCORE_FUNCTIONS[metric](dataset, user1, user2)
+    if metric == "Euclidean":
+        raw, n = euclidean_score(dataset, user1, user2)
+    else:
+        raw, n = pearson_score(dataset, user1, user2)
     return raw * min(n, SHRINK) / SHRINK, raw, n
 
 
@@ -171,11 +179,11 @@ def similar_users(dataset, user, metric):
     :param metric: ``"Euclidean"`` lub ``"Pearson"``
     :return: lista ``(inny_użytkownik, ważone, surowe, wspólne)`` malejąco
     """
-    scores = [
-        (other, *similarity(dataset, user, other, metric))
-        for other in dataset
-        if other != user
-    ]
+    scores = []
+    for other in dataset:
+        if other != user:
+            weighted, raw, n = similarity(dataset, user, other, metric)
+            scores.append((other, weighted, raw, n))
     return sorted(scores, key=lambda s: s[1], reverse=True)
 
 
@@ -207,42 +215,46 @@ def predict_ratings(dataset, user, metric):
              prezentacja), żeby nie tworzyć sztucznych remisów w rankingu
     """
     user_mean = mean_rating(dataset[user])
-    numerators, denominators, supporters = {}, {}, {}
 
+    # Dla każdego filmu nieobejrzanego przez użytkownika zbieramy opinie podobnych osób:
+    # pary (podobieństwo osoby, o ile jej ocena odbiega od jej własnej średniej).
+    opinions = {}
     for other, sim, _, _ in similar_users(dataset, user, metric):
         if sim <= 0:
-            continue
+            continue  # osoby niepodobne pomijamy
         other_mean = mean_rating(dataset[other])
         for movie, rating in dataset[other].items():
             if movie in dataset[user]:
-                continue
-            numerators[movie] = numerators.get(movie, 0.0) + sim * (rating - other_mean)
-            denominators[movie] = denominators.get(movie, 0.0) + sim
-            supporters[movie] = supporters.get(movie, 0) + 1
+                continue  # użytkownik już ten film ocenił
+            if movie not in opinions:
+                opinions[movie] = []
+            opinions[movie].append((sim, rating - other_mean))
 
     predictions = []
-    for movie, num in numerators.items():
-        pred = user_mean + num / (denominators[movie] + DAMPING)
-        predictions.append((movie, pred, supporters[movie]))
+    for movie, entries in opinions.items():
+        numerator = sum(sim * deviation for sim, deviation in entries)
+        denominator = sum(sim for sim, deviation in entries)
+        predicted = user_mean + numerator / (denominator + DAMPING)
+        predictions.append((movie, predicted, len(entries)))
     return predictions
 
 
-def recommend(dataset, user, metric, top=5, titles=None):
+def recommend(dataset, user, metric, top=5):
     """Zwraca rekomendacje i antyrekomendacje dla użytkownika.
+
+    Filmy są sortowane po przewidywanej ocenie. Przy remisie kolejność
+    zależy od kolejności osób i filmów w pliku z ocenami.
 
     :param dataset: słownik ``{użytkownik: {film: ocena}}``
     :param user: użytkownik docelowy
     :param metric: ``"Euclidean"`` lub ``"Pearson"``
     :param top: liczba pozycji na każdej liście
-    :param titles: słownik ``imdbID -> tytuł``, używany do rozstrzygania remisów
-                   alfabetycznie (domyślnie według ``imdbID``)
     :return: krotka ``(rekomendacje, antyrekomendacje)``, listy
              ``(film, przewidywana_ocena, liczba_oceniających)``
     """
     predictions = predict_ratings(dataset, user, metric)
-    name = (titles or {}).get
-    best = sorted(predictions, key=lambda p: (-p[1], -p[2], name(p[0], p[0])))[:top]
-    worst = sorted(predictions, key=lambda p: (p[1], -p[2], name(p[0], p[0])))[:top]
+    best = sorted(predictions, key=lambda p: p[1], reverse=True)[:top]
+    worst = sorted(predictions, key=lambda p: p[1])[:top]
     return best, worst
 
 
@@ -335,63 +347,41 @@ def print_comparison(results, top, catalog):
 
 
 def main():
-    """Punkt wejścia CLI."""
+    """Punkt wejścia CLI: ``--user`` (rekomendacje) albo ``--list-users`` (lista osób)."""
     parser = argparse.ArgumentParser(description="Silnik rekomendacji filmów")
     parser.add_argument("--user", help="użytkownik, dla którego liczymy rekomendacje")
     parser.add_argument(
-        "--score-type",
-        choices=[*METRICS, "both"],
-        default="both",
-        help="metryka podobieństwa (domyślnie obie + porównanie)",
-    )
-    parser.add_argument("--top", type=int, default=5, help="liczba pozycji na liście")
-    parser.add_argument(
         "--list-users", action="store_true", help="wypisz dostępnych użytkowników"
-    )
-    parser.add_argument("--ratings", default=RATINGS_FILE, help="plik z ocenami")
-    parser.add_argument(
-        "--catalog", default=CATALOG_FILE, help="katalog filmów (z OMDb)"
     )
     args = parser.parse_args()
 
-    for path, step in (
-        (args.catalog, "build_catalog.py"),
-        (args.ratings, "preprocess.py"),
-    ):
-        if not os.path.exists(path):
-            sys.exit(f"Brak pliku {path}. Najpierw uruchom {step} (patrz README).")
-    dataset = load_json(args.ratings)
-    catalog = load_json(args.catalog)
+    dataset = load_json(RATINGS_FILE)
+    catalog = load_json(CATALOG_FILE)
 
     if args.list_users or not args.user:
         print("Dostępni użytkownicy:")
         for name in dataset:
             print(f"  - {name} ({len(dataset[name])} ocen)")
-        if not args.user:
-            print('\nPodaj użytkownika: python recommender.py --user "Imię Nazwisko"')
         return
     if args.user not in dataset:
         sys.exit(f"Nie ma użytkownika '{args.user}'. Użyj --list-users.")
 
-    titles = {movie_id: entry["title"] for movie_id, entry in catalog.items()}
-    metrics = METRICS if args.score_type == "both" else (args.score_type,)
-    results = {}
     print(
         f"Użytkownik: {args.user} ({len(dataset[args.user])} ocen, "
         f"średnia {mean_rating(dataset[args.user]):.2f})"
     )
-    for metric in metrics:
+    results = {}
+    for metric in METRICS:
         print("\n" + "=" * 78)
         print(f"METRYKA: {metric}")
         print("=" * 78)
         print_similar(dataset, args.user, metric)
-        best, worst = recommend(dataset, args.user, metric, args.top, titles)
+        best, worst = recommend(dataset, args.user, metric, TOP)
         results[metric] = (best, worst)
-        print_list(f"TOP {args.top} REKOMENDACJI", best, catalog)
-        print_list(f"TOP {args.top} ANTYREKOMENDACJI", worst, catalog)
+        print_list(f"TOP {TOP} REKOMENDACJI", best, catalog)
+        print_list(f"TOP {TOP} ANTYREKOMENDACJI", worst, catalog)
 
-    if len(results) == 2:
-        print_comparison(results, args.top, catalog)
+    print_comparison(results, TOP, catalog)
 
 
 if __name__ == "__main__":

@@ -28,8 +28,7 @@ Rozwiązanie
 
 Autorzy
 -----
-Jakub Kolad
-Igor Czeczot
+Jakub Kolad, Igor Czeczot
 
 Użycie
 ------

@@ -50,8 +50,7 @@ python build_catalog.py                            # scores.xlsx + OMDb -> data/
 python preprocess.py                               # scores.xlsx + catalog.json -> data/ratings.json
 
 python recommender.py --list-users                 # lista użytkowników
-python recommender.py --user "Jakub Kolad"         # obie metryki + porównanie
-python recommender.py --user "Jakub Kolad" --score-type Pearson
+python recommender.py --user "Jakub Kolad, Igor Czeczot"         # obie metryki + porównanie
 ```
 
 Klucz OMDb można też podać jako `--api-key KLUCZ`. Potrzebny jest tylko w kroku `build_catalog.py`.
@@ -65,7 +64,7 @@ w `data/title_hints.json` i uruchom `build_catalog.py` ponownie. Zapytania już 
 ## Przykładowy wynik (fragment)
 
 ```
-Użytkownik: Jakub Kolad (41 ocen, średnia 7.68)
+Użytkownik: Jakub Kolad, Igor Czeczot (41 ocen, średnia 7.68)
 
   Rekomendacje:
    Euclidean                            | Pearson
