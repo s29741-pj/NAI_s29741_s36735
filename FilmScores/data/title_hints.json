@@ -1,0 +1,1536 @@
+{
+ "1670": {
+  "query": "1670",
+  "year": 2023,
+  "type": "series"
+ },
+ "365 dni": {
+  "query": "365 Days",
+  "year": 2020,
+  "type": "movie"
+ },
+ "50 twarzy Greya": {
+  "query": "Fifty Shades of Grey",
+  "year": 2015,
+  "type": "movie"
+ },
+ "60 sekund": {
+  "query": "Gone in Sixty Seconds",
+  "year": 2000,
+  "type": "movie"
+ },
+ "A Minecraft Movie": {
+  "query": "A Minecraft Movie",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Minecraft: Film": {
+  "query": "A Minecraft Movie",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Ad Astra": {
+  "query": "Ad Astra",
+  "year": 2019,
+  "type": "movie"
+ },
+ "After": {
+  "query": "After",
+  "year": 2019,
+  "type": "movie"
+ },
+ "Akira": {
+  "query": "Akira",
+  "year": 1988,
+  "type": "movie"
+ },
+ "Andor": {
+  "query": "Andor",
+  "year": 2022,
+  "type": "series"
+ },
+ "Anihilacja": {
+  "query": "Annihilation",
+  "year": 2018,
+  "type": "movie"
+ },
+ "Apollo 11": {
+  "query": "Apollo 11",
+  "year": 2019,
+  "type": "movie"
+ },
+ "Arcane": {
+  "query": "Arcane",
+  "year": 2021,
+  "type": "series"
+ },
+ "Assasins Creed": {
+  "query": "Assassin's Creed",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Auta": {
+  "query": "Cars",
+  "year": 2006,
+  "type": "movie"
+ },
+ "Avatar": {
+  "query": "Avatar",
+  "year": 2009,
+  "type": "movie"
+ },
+ "Avengers: Czas Ultrona": {
+  "query": "Avengers: Age of Ultron",
+  "year": 2015,
+  "type": "movie"
+ },
+ "Back rooms bez wyjścia": {
+  "query": "Backrooms",
+  "type": "movie"
+ },
+ "Barbarzyńcy": {
+  "query": "Barbarians",
+  "year": 2020,
+  "type": "series"
+ },
+ "Barbie": {
+  "query": "Barbie",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Batman (2022)": {
+  "query": "The Batman",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Battleship: Bitwa o Ziemię": {
+  "query": "Battleship",
+  "year": 2012,
+  "type": "movie"
+ },
+ "Better Call Saul": {
+  "query": "Better Call Saul",
+  "year": 2015,
+  "type": "series"
+ },
+ "Zadzwoń do Saula": {
+  "query": "Better Call Saul",
+  "year": 2015,
+  "type": "series"
+ },
+ "Bez litości": {
+  "query": "The Equalizer",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Bitwa o Anglię": {
+  "query": "Battle of Britain",
+  "year": 1969,
+  "type": "movie"
+ },
+ "Black Mirror": {
+  "query": "Black Mirror",
+  "year": 2011,
+  "type": "series"
+ },
+ "Blade Runner": {
+  "query": "Blade Runner",
+  "year": 1982,
+  "type": "movie"
+ },
+ "Blade Runner 2049": {
+  "query": "Blade Runner 2049",
+  "year": 2017,
+  "type": "movie"
+ },
+ "Bogowie": {
+  "query": "Gods",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Bohemian Rhapsody": {
+  "query": "Bohemian Rhapsody",
+  "year": 2018,
+  "type": "movie"
+ },
+ "Borderlands": {
+  "query": "Borderlands",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Botoks": {
+  "query": "Botoks",
+  "year": 2017,
+  "type": "movie"
+ },
+ "Braveheart": {
+  "query": "Braveheart",
+  "year": 1995,
+  "type": "movie"
+ },
+ "Breaking Bad": {
+  "query": "Breaking Bad",
+  "year": 2008,
+  "type": "series"
+ },
+ "Bukayo Saka: The Time is Now": {
+  "query": "Bukayo Saka: The Time Is Now",
+  "type": "movie"
+ },
+ "Bullet Train": {
+  "query": "Bullet Train",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Candyman3": {
+  "query": "Candyman: Day of the Dead",
+  "year": 1999,
+  "type": "movie"
+ },
+ "Chainsaw Man – The Movie: Reze Arc": {
+  "query": "Chainsaw Man - The Movie: Reze Arc",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Challengers": {
+  "query": "Challengers",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Chłopaki nie płaczą": {
+  "query": "Boys Don't Cry",
+  "year": 2000,
+  "type": "movie"
+ },
+ "Chłopaki z baraków": {
+  "query": "Trailer Park Boys",
+  "year": 2001,
+  "type": "series"
+ },
+ "Cicha Noc": {
+  "query": "Silent Night",
+  "year": 2017,
+  "type": "movie"
+ },
+ "Constantine": {
+  "query": "Constantine",
+  "year": 2005,
+  "type": "movie"
+ },
+ "Contratiempo": {
+  "query": "The Invisible Guest",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Cube": {
+  "query": "Cube",
+  "year": 1997,
+  "type": "movie"
+ },
+ "Cyberpunk: Edgerunners": {
+  "query": "Cyberpunk: Edgerunners",
+  "year": 2022,
+  "type": "series"
+ },
+ "Das Boot": {
+  "query": "Das Boot",
+  "year": 1981,
+  "type": "movie"
+ },
+ "Deadpool": {
+  "query": "Deadpool",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Deadpool & Wolverine": {
+  "query": "Deadpool & Wolverine",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Deja Vu": {
+  "query": "Déjà Vu",
+  "year": 2006,
+  "type": "movie"
+ },
+ "Destrukcja": {
+  "query": "Demolition",
+  "year": 2015,
+  "type": "movie"
+ },
+ "Dexter": {
+  "query": "Dexter",
+  "year": 2006,
+  "type": "series"
+ },
+ "Diabeł ubiera się u Prady": {
+  "query": "The Devil Wears Prada",
+  "year": 2006,
+  "type": "movie"
+ },
+ "Diuna": {
+  "query": "Dune",
+  "year": 2021,
+  "type": "movie"
+ },
+ "Diuna 2": {
+  "query": "Dune: Part Two",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Diuna część druga": {
+  "query": "Dune: Part Two",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Diuna Proroctwo": {
+  "query": "Dune: Prophecy",
+  "year": 2024,
+  "type": "series"
+ },
+ "Django": {
+  "query": "Django Unchained",
+  "year": 2012,
+  "type": "movie"
+ },
+ "Dom z papieru": {
+  "query": "Money Heist",
+  "year": 2017,
+  "type": "series"
+ },
+ "La Casa De Papel": {
+  "query": "Money Heist",
+  "year": 2017,
+  "type": "series"
+ },
+ "Dragonball evolution": {
+  "query": "Dragonball Evolution",
+  "year": 2009,
+  "type": "movie"
+ },
+ "Drama": {
+  "query": "The Drama",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Dwunastu gniewnych": {
+  "query": "12 Angry Men",
+  "year": 1957,
+  "type": "movie"
+ },
+ "Dwunastu gniewnych ludzi": {
+  "query": "12 Angry Men",
+  "year": 1957,
+  "type": "movie"
+ },
+ "Dyktator": {
+  "query": "The Dictator",
+  "year": 2012,
+  "type": "movie"
+ },
+ "Dziennik Bridget Jones": {
+  "query": "Bridget Jones's Diary",
+  "year": 2001,
+  "type": "movie"
+ },
+ "Dzień Świra": {
+  "query": "Day of the Wacko",
+  "year": 2002,
+  "type": "movie"
+ },
+ "Dzień świstaka": {
+  "query": "Groundhog Day",
+  "year": 1993,
+  "type": "movie"
+ },
+ "Edward nożycoręki": {
+  "query": "Edward Scissorhands",
+  "year": 1990,
+  "type": "movie"
+ },
+ "Everything, evryehere, all at once": {
+  "query": "Everything Everywhere All at Once",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Ex Machina": {
+  "query": "Ex Machina",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Expend4bles": {
+  "query": "The Expendables",
+  "year": 2023,
+  "type": "movie"
+ },
+ "F1": {
+  "query": "F1",
+  "year": 2025,
+  "type": "movie"
+ },
+ "F1: Film": {
+  "query": "F1",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Faceci w Czerni": {
+  "query": "Men in Black",
+  "year": 1997,
+  "type": "movie"
+ },
+ "Fight Club": {
+  "query": "Fight Club",
+  "year": 1999,
+  "type": "movie"
+ },
+ "Podziemny Krąg": {
+  "query": "Fight Club",
+  "year": 1999,
+  "type": "movie"
+ },
+ "Forrest Gump": {
+  "query": "Forrest Gump",
+  "year": 1994,
+  "type": "movie"
+ },
+ "Forest Gump": {
+  "query": "Forrest Gump",
+  "year": 1994,
+  "type": "movie"
+ },
+ "Frankenstein (2025)": {
+  "query": "Frankenstein",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Fundacja": {
+  "query": "Foundation",
+  "year": 2021,
+  "type": "series"
+ },
+ "Furia": {
+  "query": "Fury",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Furioza": {
+  "query": "Furioza",
+  "year": 2021,
+  "type": "movie"
+ },
+ "Galerianki": {
+  "query": "Galerianki",
+  "year": 2009,
+  "type": "movie"
+ },
+ "Geostorm": {
+  "query": "Geostorm",
+  "year": 2017,
+  "type": "movie"
+ },
+ "Ghost in the shell": {
+  "query": "Ghost in the Shell",
+  "year": 1995,
+  "type": "movie"
+ },
+ "Gladiator": {
+  "query": "Gladiator",
+  "year": 2000,
+  "type": "movie"
+ },
+ "Gnijąca panna młoda": {
+  "query": "Corpse Bride",
+  "year": 2005,
+  "type": "movie"
+ },
+ "Goodfellas": {
+  "query": "Goodfellas",
+  "year": 1990,
+  "type": "movie"
+ },
+ "Gra o tron": {
+  "query": "Game of Thrones",
+  "year": 2011,
+  "type": "series"
+ },
+ "Gran Torino": {
+  "query": "Gran Torino",
+  "year": 2008,
+  "type": "movie"
+ },
+ "Grand Budapest": {
+  "query": "The Grand Budapest Hotel",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Grand Budapest Hotel": {
+  "query": "The Grand Budapest Hotel",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Grand Tour": {
+  "query": "The Grand Tour",
+  "year": 2016,
+  "type": "series"
+ },
+ "Grawitacja": {
+  "query": "Gravity",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Green Book": {
+  "query": "Green Book",
+  "year": 2018,
+  "type": "movie"
+ },
+ "Greyhound": {
+  "query": "Greyhound",
+  "year": 2020,
+  "type": "movie"
+ },
+ "Hail Mary": {
+  "query": "Project Hail Mary",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Project Hail Mary": {
+  "query": "Project Hail Mary",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Projekt Hail Mary": {
+  "query": "Project Hail Mary",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Harry Potter": {
+  "query": "Harry Potter and the Sorcerer's Stone",
+  "year": 2001,
+  "type": "movie"
+ },
+ "Helikopter w ogniu": {
+  "query": "Black Hawk Down",
+  "year": 2001,
+  "type": "movie"
+ },
+ "Her": {
+  "query": "Her",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Ona": {
+  "query": "Her",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Hobbit: An Unexpected Journey": {
+  "query": "The Hobbit: An Unexpected Journey",
+  "year": 2012,
+  "type": "movie"
+ },
+ "Home Alone": {
+  "query": "Home Alone",
+  "year": 1990,
+  "type": "movie"
+ },
+ "Kevin sam w domu": {
+  "query": "Home Alone",
+  "year": 1990,
+  "type": "movie"
+ },
+ "Kevin sam w Nowym Jorku": {
+  "query": "Home Alone 2: Lost in New York",
+  "year": 1992,
+  "type": "movie"
+ },
+ "Hunt for the Red October": {
+  "query": "The Hunt for Red October",
+  "year": 1990,
+  "type": "movie"
+ },
+ "Polowanie na Czerwony Październik": {
+  "query": "The Hunt for Red October",
+  "year": 1990,
+  "type": "movie"
+ },
+ "Hunter Killer": {
+  "query": "Hunter Killer",
+  "year": 2018,
+  "type": "movie"
+ },
+ "Idiocracy": {
+  "query": "Idiocracy",
+  "year": 2006,
+  "type": "movie"
+ },
+ "Idiokracja": {
+  "query": "Idiocracy",
+  "year": 2006,
+  "type": "movie"
+ },
+ "iHostage": {
+  "query": "iHostage",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Inception": {
+  "query": "Inception",
+  "year": 2010,
+  "type": "movie"
+ },
+ "Interstellar": {
+  "query": "Interstellar",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Interstelar": {
+  "query": "Interstellar",
+  "year": 2014,
+  "type": "movie"
+ },
+ "IT: Welcome to Derry": {
+  "query": "IT: Welcome to Derry",
+  "year": 2025,
+  "type": "series"
+ },
+ "Jak sprzedawać dragi w sieci (szybko)": {
+  "query": "How to Sell Drugs Online (Fast)",
+  "year": 2019,
+  "type": "series"
+ },
+ "Jak wytresować smoka": {
+  "query": "How to Train Your Dragon",
+  "year": 2010,
+  "type": "movie"
+ },
+ "Jak zostałem gangsterem. Historia prawdziwa": {
+  "query": "How I Became a Gangster",
+  "year": 2019,
+  "type": "movie"
+ },
+ "Jedna bitwa po drugiej": {
+  "query": "One Battle After Another",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Jeżdziec bez głowy": {
+  "query": "Sleepy Hollow",
+  "year": 1999,
+  "type": "movie"
+ },
+ "John Wick": {
+  "query": "John Wick",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Johny Wick": {
+  "query": "John Wick",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Joker": {
+  "query": "Joker",
+  "year": 2019,
+  "type": "movie"
+ },
+ "Joker Folie a deux": {
+  "query": "Joker: Folie à Deux",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Jumper": {
+  "query": "Jumper",
+  "year": 2008,
+  "type": "movie"
+ },
+ "Kapitan Ameryka: Wojna bohaterów": {
+  "query": "Captain America: Civil War",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Kapitan Bomba - Zemsta Faraona": {
+  "query": "Kapitan Bomba - Zemsta Faraona",
+  "type": "movie"
+ },
+ "Kapitan Phillips": {
+  "query": "Captain Phillips",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Kiler": {
+  "query": "Kiler",
+  "year": 1997,
+  "type": "movie"
+ },
+ "Kingsman: Tajne służby": {
+  "query": "Kingsman: The Secret Service",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Klan": {
+  "query": "Klan",
+  "year": 1997,
+  "type": "series"
+ },
+ "Knives Out": {
+  "query": "Knives Out",
+  "year": 2019,
+  "type": "movie"
+ },
+ "Kompania Braci": {
+  "query": "Band of Brothers",
+  "year": 2001,
+  "type": "series"
+ },
+ "Kampania Braci": {
+  "query": "Band of Brothers",
+  "year": 2001,
+  "type": "series"
+ },
+ "Kompletnie nieznany": {
+  "query": "A Complete Unknown",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Kpop Demon Hunters": {
+  "query": "KPop Demon Hunters",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Kraina Lodu": {
+  "query": "Frozen",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Królestwo Niebieskie": {
+  "query": "Kingdom of Heaven",
+  "year": 2005,
+  "type": "movie"
+ },
+ "Księżniczka Mononoke": {
+  "query": "Princess Mononoke",
+  "year": 1997,
+  "type": "movie"
+ },
+ "Kulawe Konie": {
+  "query": "Slow Horses",
+  "year": 2022,
+  "type": "series"
+ },
+ "La Cara Oculta": {
+  "query": "The Hidden Face",
+  "year": 2011,
+  "type": "movie"
+ },
+ "Legion Samobójców": {
+  "query": "Suicide Squad",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Oddział zabójców": {
+  "query": "The Suicide Squad",
+  "year": 2021,
+  "type": "movie"
+ },
+ "Lejdis": {
+  "query": "Ladies",
+  "year": 2008,
+  "type": "movie"
+ },
+ "Lepiej być nie może": {
+  "query": "As Good as It Gets",
+  "year": 1997,
+  "type": "movie"
+ },
+ "Lighthouse": {
+  "query": "The Lighthouse",
+  "year": 2019,
+  "type": "movie"
+ },
+ "List do M.": {
+  "query": "Letters to Santa",
+  "year": 2011,
+  "type": "movie"
+ },
+ "Listy do M.": {
+  "query": "Letters to Santa",
+  "year": 2011,
+  "type": "movie"
+ },
+ "List do M. 2": {
+  "query": "Letters to Santa 2",
+  "year": 2015,
+  "type": "movie"
+ },
+ "Lot": {
+  "query": "Flight",
+  "year": 2012,
+  "type": "movie"
+ },
+ "Lot nad kukułczym gniazdem": {
+  "query": "One Flew Over the Cuckoo's Nest",
+  "year": 1975,
+  "type": "movie"
+ },
+ "LOTR: Return of the King": {
+  "query": "The Lord of the Rings: The Return of the King",
+  "year": 2003,
+  "type": "movie"
+ },
+ "Władca Pierścieni Powrót Króla": {
+  "query": "The Lord of the Rings: The Return of the King",
+  "year": 2003,
+  "type": "movie"
+ },
+ "Władca Pierścieni: Powrót Króla": {
+  "query": "The Lord of the Rings: The Return of the King",
+  "year": 2003,
+  "type": "movie"
+ },
+ "Lucyfer": {
+  "query": "Lucifer",
+  "year": 2016,
+  "type": "series"
+ },
+ "Ludzka stonoga": {
+  "query": "The Human Centipede (First Sequence)",
+  "year": 2009,
+  "type": "movie"
+ },
+ "Maczeta zabija w kosmosie": {
+  "query": "Machete Kills",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Marsjanin": {
+  "query": "The Martian",
+  "year": 2015,
+  "type": "movie"
+ },
+ "Martian": {
+  "query": "The Martian",
+  "year": 2015,
+  "type": "movie"
+ },
+ "Marty Supreme": {
+  "query": "Marty Supreme",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Matrix": {
+  "query": "The Matrix",
+  "year": 1999,
+  "type": "movie"
+ },
+ "Mentalista": {
+  "query": "The Mentalist",
+  "year": 2008,
+  "type": "series"
+ },
+ "Menu": {
+  "query": "The Menu",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Miasteczko halloween": {
+  "query": "The Nightmare Before Christmas",
+  "year": 1993,
+  "type": "movie"
+ },
+ "Miasteczko South Park": {
+  "query": "South Park",
+  "year": 1997,
+  "type": "series"
+ },
+ "South Park": {
+  "query": "South Park",
+  "year": 1997,
+  "type": "series"
+ },
+ "Miecz zabójcy demonów": {
+  "query": "Demon Slayer: Kimetsu no Yaiba",
+  "year": 2019,
+  "type": "series"
+ },
+ "Minionki": {
+  "query": "Minions",
+  "year": 2015,
+  "type": "movie"
+ },
+ "Monty Python and the Holy Grail": {
+  "query": "Monty Python and the Holy Grail",
+  "year": 1975,
+  "type": "movie"
+ },
+ "Morbius": {
+  "query": "Morbius",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Mordercza opona (Rubber)": {
+  "query": "Rubber",
+  "year": 2010,
+  "type": "movie"
+ },
+ "Mroczny rycerz": {
+  "query": "The Dark Knight",
+  "year": 2008,
+  "type": "movie"
+ },
+ "Mroczny rycerz Powstaje": {
+  "query": "The Dark Knight Rises",
+  "year": 2012,
+  "type": "movie"
+ },
+ "Na zachodzie bez zmian": {
+  "query": "All Quiet on the Western Front",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Naga Broń": {
+  "query": "The Naked Gun: From the Files of Police Squad!",
+  "year": 1988,
+  "type": "movie"
+ },
+ "Naga broń 33 1/3: Ostateczna zniewaga": {
+  "query": "Naked Gun 33 1/3: The Final Insult",
+  "year": 1994,
+  "type": "movie"
+ },
+ "Napoleon": {
+  "query": "Napoleon",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Narcos": {
+  "query": "Narcos",
+  "year": 2015,
+  "type": "series"
+ },
+ "Narodziny Gwiazdy": {
+  "query": "A Star Is Born",
+  "year": 2018,
+  "type": "movie"
+ },
+ "Naznaczony: Wyjście z mrocznego wymiaru": {
+  "query": "Insidious: The Red Door",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Niebieskoki Samuraj": {
+  "query": "Blue Eye Samurai",
+  "year": 2023,
+  "type": "series"
+ },
+ "Niepokalana": {
+  "query": "Immaculate",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Nosferatu": {
+  "query": "Nosferatu",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Notatnik Śmierci": {
+  "query": "Death Note",
+  "year": 2006,
+  "type": "series"
+ },
+ "Notting Hill": {
+  "query": "Notting Hill",
+  "year": 1999,
+  "type": "movie"
+ },
+ "Obecność": {
+  "query": "The Conjuring",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Obsesja": {
+  "query": "Obsession",
+  "type": "movie"
+ },
+ "Odyseja": {
+  "query": "The Odyssey",
+  "year": 2026,
+  "type": "movie"
+ },
+ "The Odyssey": {
+  "query": "The Odyssey",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Ogniem i Mieczem": {
+  "query": "With Fire and Sword",
+  "year": 1999,
+  "type": "movie"
+ },
+ "Ojciec chrzestny": {
+  "query": "The Godfather",
+  "year": 1972,
+  "type": "movie"
+ },
+ "Ojciec chrzestny II": {
+  "query": "The Godfather Part II",
+  "year": 1974,
+  "type": "movie"
+ },
+ "Oppenheimer": {
+  "query": "Oppenheimer",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Oszukać przeznaczenie": {
+  "query": "Final Destination",
+  "year": 2000,
+  "type": "movie"
+ },
+ "Other Mommy": {
+  "query": "Other Mommy",
+  "type": "movie"
+ },
+ "Pacific Rim": {
+  "query": "Pacific Rim",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Pacific Rim 2": {
+  "query": "Pacific Rim: Uprising",
+  "year": 2018,
+  "type": "movie"
+ },
+ "Pacyfik": {
+  "query": "The Pacific",
+  "year": 2010,
+  "type": "series"
+ },
+ "Pan i Pani Smith": {
+  "query": "Mr. & Mrs. Smith",
+  "year": 2005,
+  "type": "movie"
+ },
+ "Paprika": {
+  "query": "Paprika",
+  "year": 2006,
+  "type": "movie"
+ },
+ "Para Idealna": {
+  "query": "The Perfect Couple",
+  "year": 2024,
+  "type": "series"
+ },
+ "Parasite": {
+  "query": "Parasite",
+  "year": 2019,
+  "type": "movie"
+ },
+ "Peaky Blinders": {
+  "query": "Peaky Blinders",
+  "year": 2013,
+  "type": "series"
+ },
+ "Pianista (2002)": {
+  "query": "The Pianist",
+  "year": 2002,
+  "type": "movie"
+ },
+ "Piep*zyć Mickiewicza": {
+  "query": "Piep*zyć Mickiewicza",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Pierścienie władzy": {
+  "query": "The Lord of the Rings: The Rings of Power",
+  "year": 2022,
+  "type": "series"
+ },
+ "Piraci z Karaibów: Na krańcu świata": {
+  "query": "Pirates of the Caribbean: At World's End",
+  "year": 2007,
+  "type": "movie"
+ },
+ "Piękny umysł": {
+  "query": "A Beautiful Mind",
+  "year": 2001,
+  "type": "movie"
+ },
+ "Planeta Singli": {
+  "query": "Planet Single",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Platforma": {
+  "query": "The Platform",
+  "year": 2019,
+  "type": "movie"
+ },
+ "Potop": {
+  "query": "The Deluge",
+  "year": 1974,
+  "type": "movie"
+ },
+ "Prestiż": {
+  "query": "The Prestige",
+  "year": 2006,
+  "type": "movie"
+ },
+ "Prison Break": {
+  "query": "Prison Break",
+  "year": 2005,
+  "type": "series"
+ },
+ "Przesmyk": {
+  "query": "The Gorge",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Przełęcz ocalonych": {
+  "query": "Hacksaw Ridge",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Puchatek: Krew i miód": {
+  "query": "Winnie-the-Pooh: Blood and Honey",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Winnie the pooh": {
+  "query": "Winnie-the-Pooh: Blood and Honey",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Pulp Fiction": {
+  "query": "Pulp Fiction",
+  "year": 1994,
+  "type": "movie"
+ },
+ "Raport pelikana": {
+  "query": "The Pelican Brief",
+  "year": 1993,
+  "type": "movie"
+ },
+ "Resident Evil": {
+  "query": "Resident Evil",
+  "year": 2002,
+  "type": "movie"
+ },
+ "Rick & Morty": {
+  "query": "Rick and Morty",
+  "year": 2013,
+  "type": "series"
+ },
+ "Rick and Morty": {
+  "query": "Rick and Morty",
+  "year": 2013,
+  "type": "series"
+ },
+ "Rick i Morty": {
+  "query": "Rick and Morty",
+  "year": 2013,
+  "type": "series"
+ },
+ "Rojst": {
+  "query": "The Mire",
+  "year": 2018,
+  "type": "series"
+ },
+ "Rycerz 7 Królestw": {
+  "query": "A Knight of the Seven Kingdoms",
+  "year": 2026,
+  "type": "series"
+ },
+ "Rycerz siedmiu królestw": {
+  "query": "A Knight of the Seven Kingdoms",
+  "year": 2026,
+  "type": "series"
+ },
+ "Rzym": {
+  "query": "Rome",
+  "year": 2005,
+  "type": "series"
+ },
+ "Ród Smoka": {
+  "query": "House of the Dragon",
+  "year": 2022,
+  "type": "series"
+ },
+ "Sabrina": {
+  "query": "Chilling Adventures of Sabrina",
+  "year": 2018,
+  "type": "series"
+ },
+ "Samce Alfa": {
+  "query": "Alpha Males",
+  "year": 2022,
+  "type": "series"
+ },
+ "Sarnie Żniwo": {
+  "query": "Sarnie Żniwo",
+  "type": "movie"
+ },
+ "Shang-Chi i legenda dziesięciu pierścieni": {
+  "query": "Shang-Chi and the Legend of the Ten Rings",
+  "year": 2021,
+  "type": "movie"
+ },
+ "Shark Exorcist": {
+  "query": "Shark Exorcist",
+  "year": 2015,
+  "type": "movie"
+ },
+ "Sharknado": {
+  "query": "Sharknado",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Shrek": {
+  "query": "Shrek",
+  "year": 2001,
+  "type": "movie"
+ },
+ "Shutter Island": {
+  "query": "Shutter Island",
+  "year": 2010,
+  "type": "movie"
+ },
+ "Siedem": {
+  "query": "Se7en",
+  "year": 1995,
+  "type": "movie"
+ },
+ "Skarb Narodów": {
+  "query": "National Treasure",
+  "year": 2004,
+  "type": "movie"
+ },
+ "Skazani na Shawshank": {
+  "query": "The Shawshank Redemption",
+  "year": 1994,
+  "type": "movie"
+ },
+ "Slender Man": {
+  "query": "Slender Man",
+  "year": 2018,
+  "type": "movie"
+ },
+ "Smoleńsk": {
+  "query": "Smolensk",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Snajper": {
+  "query": "American Sniper",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Snieżka": {
+  "query": "Snow White",
+  "year": 2025,
+  "type": "movie"
+ },
+ "Spider-Man: Brand New Day": {
+  "query": "Spider-Man: Brand New Day",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Spider-Man: Całkiem nowy dzień": {
+  "query": "Spider-Man: Brand New Day",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Spider-Man: Homecoming": {
+  "query": "Spider-Man: Homecoming",
+  "year": 2017,
+  "type": "movie"
+ },
+ "Sprawiedliwość Owiec": {
+  "query": "The Sheep Detectives",
+  "year": 2026,
+  "type": "movie"
+ },
+ "Star Wars Zemsta Sithów": {
+  "query": "Star Wars: Episode III - Revenge of the Sith",
+  "year": 2005,
+  "type": "movie"
+ },
+ "Star Wars: Return of the Sith": {
+  "query": "Star Wars: Episode III - Revenge of the Sith",
+  "year": 2005,
+  "type": "movie"
+ },
+ "Starcie tytanów": {
+  "query": "Clash of the Titans",
+  "year": 2010,
+  "type": "movie"
+ },
+ "Stranger Things": {
+  "query": "Stranger Things",
+  "year": 2016,
+  "type": "series"
+ },
+ "Straszny Film 3": {
+  "query": "Scary Movie 3",
+  "year": 2003,
+  "type": "movie"
+ },
+ "Strefa gangsterów": {
+  "query": "Gangster Squad",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Substancja": {
+  "query": "The Substance",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Szeregowiec Ryan": {
+  "query": "Saving Private Ryan",
+  "year": 1998,
+  "type": "movie"
+ },
+ "Ted": {
+  "query": "Ted",
+  "year": 2012,
+  "type": "movie"
+ },
+ "Tenet": {
+  "query": "Tenet",
+  "year": 2020,
+  "type": "movie"
+ },
+ "Teoria wszystkiego": {
+  "query": "The Theory of Everything",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Terminal": {
+  "query": "The Terminal",
+  "year": 2004,
+  "type": "movie"
+ },
+ "Terminator 2": {
+  "query": "Terminator 2: Judgment Day",
+  "year": 1991,
+  "type": "movie"
+ },
+ "Terrifier": {
+  "query": "Terrifier",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Testosteron": {
+  "query": "Testosteron",
+  "year": 2007,
+  "type": "movie"
+ },
+ "The amazing bulk": {
+  "query": "The Amazing Bulk",
+  "year": 2010,
+  "type": "movie"
+ },
+ "The Bad Guys": {
+  "query": "The Bad Guys",
+  "year": 2022,
+  "type": "movie"
+ },
+ "The Big Bang Theory": {
+  "query": "The Big Bang Theory",
+  "year": 2007,
+  "type": "series"
+ },
+ "The Big Short": {
+  "query": "The Big Short",
+  "year": 2015,
+  "type": "movie"
+ },
+ "The Expanse": {
+  "query": "The Expanse",
+  "year": 2015,
+  "type": "series"
+ },
+ "The Lego Movie": {
+  "query": "The Lego Movie",
+  "year": 2014,
+  "type": "movie"
+ },
+ "The Marvels": {
+  "query": "The Marvels",
+  "year": 2023,
+  "type": "movie"
+ },
+ "The Secret Garden": {
+  "query": "The Secret Garden",
+  "year": 1993,
+  "type": "movie"
+ },
+ "The Simpsons": {
+  "query": "The Simpsons",
+  "year": 1989,
+  "type": "series"
+ },
+ "The Sopranos": {
+  "query": "The Sopranos",
+  "year": 1999,
+  "type": "series"
+ },
+ "Thor: Miłość i grom": {
+  "query": "Thor: Love and Thunder",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Thor: Ragnarok": {
+  "query": "Thor: Ragnarok",
+  "year": 2017,
+  "type": "movie"
+ },
+ "Titanic": {
+  "query": "Titanic",
+  "year": 1997,
+  "type": "movie"
+ },
+ "To nie jest kraj dla starych ludzi": {
+  "query": "No Country for Old Men",
+  "year": 2007,
+  "type": "movie"
+ },
+ "Tokyo Vice": {
+  "query": "Tokyo Vice",
+  "year": 2022,
+  "type": "series"
+ },
+ "Top Boy": {
+  "query": "Top Boy",
+  "year": 2011,
+  "type": "series"
+ },
+ "Tora! Tora! Tora!": {
+  "query": "Tora! Tora! Tora!",
+  "year": 1970,
+  "type": "movie"
+ },
+ "Transformers: Rise of the Beasts": {
+  "query": "Transformers: Rise of the Beasts",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Transformers: Wiek zagłady": {
+  "query": "Transformers: Age of Extinction",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Truman Show": {
+  "query": "The Truman Show",
+  "year": 1998,
+  "type": "movie"
+ },
+ "Trump vs the illuminati": {
+  "query": "Trump vs the Illuminati",
+  "year": 2020,
+  "type": "movie"
+ },
+ "Twisters": {
+  "query": "Twisters",
+  "year": 2024,
+  "type": "movie"
+ },
+ "Twórca": {
+  "query": "The Creator",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Ucieczka z Alcatraz": {
+  "query": "Escape from Alcatraz",
+  "year": 1979,
+  "type": "movie"
+ },
+ "Ukryte działania": {
+  "query": "Hidden Figures",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Velocipastor": {
+  "query": "The VelociPastor",
+  "year": 2017,
+  "type": "movie"
+ },
+ "W garniturach": {
+  "query": "Suits",
+  "year": 2011,
+  "type": "series"
+ },
+ "W trójkącie": {
+  "query": "Triangle of Sadness",
+  "year": 2022,
+  "type": "movie"
+ },
+ "Warcraft": {
+  "query": "Warcraft",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Warcraft: Początek": {
+  "query": "Warcraft",
+  "year": 2016,
+  "type": "movie"
+ },
+ "Wednesday": {
+  "query": "Wednesday",
+  "year": 2022,
+  "type": "series"
+ },
+ "Whiplash": {
+  "query": "Whiplash",
+  "year": 2014,
+  "type": "movie"
+ },
+ "Who Killed Captain Alex?": {
+  "query": "Who Killed Captain Alex?",
+  "year": 2010,
+  "type": "movie"
+ },
+ "Wilk z Wall Street": {
+  "query": "The Wolf of Wall Street",
+  "year": 2013,
+  "type": "movie"
+ },
+ "Wyjazd integracyjny": {
+  "query": "Wyjazd integracyjny",
+  "year": 2011,
+  "type": "movie"
+ },
+ "Wzgórza mają oczy": {
+  "query": "The Hills Have Eyes",
+  "year": 2006,
+  "type": "movie"
+ },
+ "Wzgórze Psów": {
+  "query": "Hound's Hill",
+  "year": 2025,
+  "type": "series"
+ },
+ "Young Sheldon": {
+  "query": "Young Sheldon",
+  "year": 2017,
+  "type": "series"
+ },
+ "Zielona mila": {
+  "query": "The Green Mile",
+  "year": 1999,
+  "type": "movie"
+ },
+ "Zmierzch": {
+  "query": "Twilight",
+  "year": 2008,
+  "type": "movie"
+ },
+ "Znachor": {
+  "query": "Forgotten Love",
+  "year": 2023,
+  "type": "movie"
+ },
+ "Złap mnie, jeśli potrafisz": {
+  "query": "Catch Me If You Can",
+  "year": 2002,
+  "type": "movie"
+ }
+}
