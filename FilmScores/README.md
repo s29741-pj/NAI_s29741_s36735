@@ -1,6 +1,6 @@
 # Silnik rekomendacji filmów i seriali (NAI)
 
-**Autor:** Jakub Kolad
+**Autorzy:** Jakub Kolad, Igor Czeczot
 
 ## Problem
 
