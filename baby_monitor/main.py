@@ -1,5 +1,5 @@
 """
-Project: Intelligent Baby Monitor Simulator (Fuzzy Edge AI)
+Project: Intelligent Baby Monitor Simulator
 
 Description:
 This project uses fuzzy logic to estimate the wake-up risk
@@ -39,30 +39,14 @@ i.e. the directory containing main.py):
    python main.py
 
 Real-time simulation demo:
-In addition to the interactive sliders, simulation.py runs a time-driven
-demo. A virtual baby sleeps in a cot while audio, movement and the time since
-the last feeding evolve every simulated minute. The fuzzy system recomputes
-the wake-up risk on every tick, and a closed loop soothes the baby when the
-risk gets high. Run it with:
    python simulation.py
-
-Main flags: --seed N (reproducible run), --feeding MIN (initial time since
-the last feeding), --interval MS (frame delay) and --save PATH with
---frames N (render a GIF instead of opening a window).
 
 Documentation (generated from docstrings with pdoc):
 - Generate static HTML into the docs/ directory:
-  python -m pdoc -o docs fuzzy_logic main simulation
+  python -m pdoc -o docs fuzzy_logic main
 
 - Or browse it live in the web browser:
-  python -m pdoc fuzzy_logic main simulation
-
-Note:
-The FuzzySystem is initialized with show_banner=False
-to disable the Simpful welcome message.
-
-All membership function parameters are experimental
-design assumptions, not medical recommendations.
+  python -m pdoc fuzzy_logic main
 """
 
 import matplotlib.pyplot as plt
