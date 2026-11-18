@@ -50,7 +50,7 @@ python build_catalog.py                            # scores.xlsx + OMDb -> data/
 python preprocess.py                               # scores.xlsx + catalog.json -> data/ratings.json
 
 python recommender.py --list-users                 # lista użytkowników
-python recommender.py --user "Jakub Kolad, Igor Czeczot"         # obie metryki + porównanie
+python recommender.py --user "Jakub K., Igor C."         # obie metryki + porównanie
 ```
 
 Klucz OMDb można też podać jako `--api-key KLUCZ`. Potrzebny jest tylko w kroku `build_catalog.py`.
