@@ -64,7 +64,7 @@ w `data/title_hints.json` i uruchom `build_catalog.py` ponownie. Zapytania już 
 ## Przykładowy wynik (fragment)
 
 ```
-Użytkownik: Jakub Kolad, Igor Czeczot (41 ocen, średnia 7.68)
+Użytkownik: Jakub K., Igor C. (41 ocen, średnia 7.68)
 
   Rekomendacje:
    Euclidean                            | Pearson
