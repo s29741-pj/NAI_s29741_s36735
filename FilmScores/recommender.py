@@ -218,6 +218,7 @@ def predict_ratings(dataset, user, metric):
 
     # Dla każdego filmu nieobejrzanego przez użytkownika zbieramy opinie podobnych osób:
     # pary (podobieństwo osoby, o ile jej ocena odbiega od jej własnej średniej).
+
     opinions = {}
     for other, sim, _, _ in similar_users(dataset, user, metric):
         if sim <= 0:
@@ -237,6 +238,14 @@ def predict_ratings(dataset, user, metric):
         predicted = user_mean + numerator / (denominator + DAMPING)
         predictions.append((movie, predicted, len(entries)))
     return predictions
+
+
+"""predicted = średnia(a) + Σ w(a,u) · (r(u,j) − średnia(u))  /  Σ |w(a,u)|
+    
+    średnia(a) to średnia ocen użytkownika, dla którego przewidujemy,
+    sumowanie idzie po osobach u, które ocenili film j,
+    r(u,j) − średnia(u) to odchylenie oceny od ich własnej średniej, czyli informacja „czy ta osoba oceniła film wyżej lub niżej niż zwykle”,
+    w(a,u) to waga, czyli podobieństwo użytkownika do osoby u"""
 
 
 def recommend(dataset, user, metric, top=5):
