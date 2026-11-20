@@ -1,0 +1,456 @@
+user,movie_id,movie_title,actual_rating,pearson_prediction,pearson_absolute_error,euclidean_prediction,euclidean_absolute_error
+Paweł C.,tt29420686,1670,9.0,5.2738,3.7262,6.0552,2.9448
+Paweł C.,tt9184994,How to Sell Drugs Online (Fast),8.0,,,,
+Paweł C.,tt18482892,Alpha Males,9.0,,,,
+Paweł C.,tt4052886,Lucifer,3.0,,,,
+Paweł C.,tt13309742,Blue Eye Samurai,10.0,,,,
+Paweł C.,tt9184986,Barbarians,9.0,,,,
+Paweł C.,tt11514868,The Perfect Couple,7.0,,,,
+Paweł C.,tt8855592,The Mire,8.0,8.0786,0.0786,7.8611,0.1389
+Paweł C.,tt0099810,The Hunt for Red October,10.0,7.2153,2.7847,7.2174,2.7826
+Paweł C.,tt2861424,Rick and Morty,10.0,9.0894,0.9106,7.2060,2.7940
+Paweł C.,tt0898266,The Big Bang Theory,8.0,,,,
+Paweł C.,tt0112573,Braveheart,10.0,7.8085,2.1915,7.6387,2.3613
+Paweł C.,tt3230854,The Expanse,7.0,7.4432,0.4432,7.3660,0.3660
+Paweł C.,tt0121955,South Park,9.0,7.2409,1.7591,7.2420,1.7580
+Paweł C.,tt2294629,Frozen,5.0,6.2862,1.2862,6.4543,1.4543
+Paweł C.,tt0243155,Bridget Jones's Diary,6.0,,,,
+Paweł C.,tt3498820,Captain America: Civil War,3.0,6.8633,3.8633,7.0535,4.0535
+Paweł C.,tt2395427,Avengers: Age of Ultron,2.0,6.3578,4.3578,6.2106,4.2106
+Paweł C.,tt0103064,Terminator 2: Judgment Day,9.0,8.4208,0.5792,7.9541,1.0459
+Paweł C.,tt5127398,Planet Single,7.0,7.3313,0.3313,7.3089,0.3089
+Paweł C.,tt1927077,Letters to Santa,7.0,5.3907,1.6093,4.7178,2.2822
+Paweł C.,tt5268648,Letters to Santa 2,2.0,,,,
+Paweł C.,tt0109830,Forrest Gump,10.0,8.7374,1.2626,8.4345,1.5655
+Paweł C.,tt25602274,Ex Machina (2014)/Crash (2004) - 74 Movie Buff Specialists (Ep 27),10.0,8.0180,1.9820,7.8111,2.1889
+Paweł C.,tt1205489,Gran Torino,9.0,7.3960,1.6040,7.3523,1.6477
+Paweł C.,tt7133554,Silent Night,1.0,4.3614,3.3614,5.3733,4.3733
+Paweł C.,tt1440129,Battleship,1.0,,,,
+Paweł C.,tt1517451,A Star Is Born,2.0,8.0608,6.0608,7.8270,5.8270
+Paweł C.,tt1535109,Captain Phillips,9.0,,,,
+Paweł C.,tt2278388,The Grand Budapest Hotel,9.0,8.4590,0.5410,8.0980,0.9020
+Paweł C.,tt2095008,Wyjazd integracyjny,1.0,,,,
+Paweł C.,tt2911666,John Wick,7.0,7.1700,0.1700,7.0766,0.0766
+Paweł C.,tt2707408,Narcos,10.0,8.2306,1.7694,7.9800,2.0200
+Paweł C.,tt0362227,The Terminal,8.0,,,,
+Paweł C.,tt3720788,The Disappearance of Eleanor Rigby: Her,8.0,6.8173,1.1827,6.6941,1.3059
+Paweł C.,tt2582802,Whiplash,10.0,7.3110,2.6890,7.3126,2.6874
+Paweł C.,tt0458352,The Devil Wears Prada,9.0,8.1083,0.8917,7.7486,1.2514
+Paweł C.,tt6468322,Money Heist,8.0,7.6437,0.3563,7.4755,0.5245
+Paweł C.,tt2442560,Peaky Blinders,9.0,8.1039,0.8961,7.8480,1.1520
+Paweł C.,tt4857264,The Invisible Guest,9.0,,,,
+Paweł C.,tt1772250,The Hidden Face,10.0,,,,
+Krysia C.,tt0119822,As Good as It Gets,9.0,,,,
+Krysia C.,tt33764258,The Odyssey,9.0,7.1857,1.8143,6.7430,2.2570
+Krysia C.,tt33071426,The Drama,9.0,,,,
+Krysia C.,tt0120382,The Truman Show,10.0,7.0583,2.9417,6.6877,3.3123
+Krysia C.,tt0125439,Notting Hill,5.0,,,,
+Krysia C.,tt30144839,One Battle After Another,5.0,5.0935,0.0935,5.3575,0.3575
+Krysia C.,tt8760684,Apollo 11,7.0,,,,
+Krysia C.,tt2935510,Ad Astra,5.0,5.4804,0.4804,5.7994,0.7994
+Krysia C.,tt17526714,The Substance,6.0,,,,
+Krysia C.,tt17977354,Hidden Figures (2016),8.0,,,,
+Krysia C.,tt1454468,Gravity,7.0,,,,
+Krysia C.,tt1907668,Flight,9.0,,,,
+Krysia C.,tt11563598,A Complete Unknown,8.0,,,,
+Krysia C.,tt15398776,Oppenheimer,9.0,7.0647,1.9353,6.9815,2.0185
+Krysia C.,tt29420686,1670,5.0,5.4294,0.4294,5.0098,0.0098
+Krysia C.,tt0458352,The Devil Wears Prada,8.0,7.0894,0.9106,6.7905,1.2095
+Krysia C.,tt26596953,Forgotten Love,9.0,5.5967,3.4033,5.7689,3.2311
+Krysia C.,tt7322224,Triangle of Sadness,1.0,,,,
+Krysia C.,tt3429896,"Sarnie zniwo, czyli Pokusa statuetkowego szlaku",1.0,,,,
+Krysia C.,tt3720788,The Disappearance of Eleanor Rigby: Her,3.0,6.3948,3.3948,6.5115,3.5115
+Krysia C.,tt2582802,Whiplash,5.0,6.9814,1.9814,6.8615,1.8615
+Krysia C.,tt0133093,The Matrix,5.0,6.9174,1.9174,6.6763,1.6763
+Krysia C.,tt1853728,Django Unchained,4.0,,,,
+Krysia C.,tt0477348,No Country for Old Men,6.0,,,,
+Krysia C.,tt1099212,Twilight,2.0,1.9194,0.0806,2.1766,0.1766
+Krysia C.,tt1160419,Dune,4.0,5.8954,1.8954,6.1772,2.1772
+Krysia C.,tt0111161,The Shawshank Redemption,10.0,7.8511,2.1489,7.4892,2.5108
+Krysia C.,tt1386697,Suicide Squad,6.0,5.0540,0.9460,5.5734,0.4266
+Krysia C.,tt0773262,Dexter,10.0,6.8088,3.1912,6.7031,3.2969
+Krysia C.,tt0167260,The Lord of the Rings: The Return of the King,3.0,8.3638,5.3638,8.1129,5.1129
+Patryk S.,tt9764362,The Menu,9.0,,,,
+Patryk S.,tt3501632,Thor: Ragnarok,9.0,,,,
+Patryk S.,tt2250912,Spider-Man: Homecoming,8.0,,,,
+Patryk S.,tt1877830,The Batman,8.0,,,,
+Patryk S.,tt1663662,Pacific Rim,7.0,6.3528,0.6472,6.5247,0.4753
+Patryk S.,tt2109248,Transformers: Age of Extinction,9.0,,,,
+Patryk S.,tt2179136,American Sniper,7.0,,,,
+Patryk S.,tt15398776,Oppenheimer,7.0,7.6312,0.6312,7.3803,0.3803
+Patryk S.,tt9335498,Demon Slayer: Kimetsu no Yaiba,9.0,,,,
+Patryk S.,tt0877057,Death Note,5.0,,,,
+Patryk S.,tt0120382,The Truman Show,8.0,8.1566,0.1566,7.3688,0.6312
+Patryk S.,tt0993846,The Wolf of Wall Street,10.0,7.5737,2.4263,7.2799,2.7201
+Patryk S.,tt1645170,The Dictator,7.0,5.2254,1.7746,5.6134,1.3866
+Patryk S.,tt1927077,Letters to Santa,2.0,3.8595,1.8595,3.6012,1.6012
+Patryk S.,tt19623240,Winnie-the-Pooh: Blood and Honey,3.0,,,,
+Patryk S.,tt0449088,Pirates of the Caribbean: At World's End,7.0,,,,
+Patryk S.,tt1386697,Suicide Squad,4.0,6.1548,2.1548,6.2165,2.2165
+Patryk S.,tt3566834,A Minecraft Movie,5.0,5.2402,0.2402,5.6412,0.6412
+Patryk S.,tt6334354,The Suicide Squad,6.0,,,,
+Patryk S.,tt0317219,Cars,8.0,6.7591,1.2409,6.2975,1.7025
+Patryk S.,tt1612774,Rubber,2.0,,,,
+Patryk S.,tt2119532,Hacksaw Ridge,10.0,,,,
+Patryk S.,tt1632701,Suits,10.0,,,,
+Patryk S.,tt24265982,Episode 101 - Kingsman: The Secret Service (2014),8.0,,,,
+Patryk S.,tt10515864,Furioza,4.0,,,,
+Patryk S.,tt10804178,How I Became a Gangster,7.0,6.7845,0.2155,6.6083,0.3917
+Patryk S.,tt2557478,Pacific Rim: Uprising,5.0,2.9764,2.0236,4.3283,0.6717
+Patryk S.,tt0253474,The Pianist,9.0,,,,
+Patryk S.,tt0182607,Klan,2.0,,,,
+Patryk S.,tt1160419,Dune,4.0,5.0636,1.0636,5.9173,1.9173
+Patryk S.,tt5108870,Morbius,3.0,,,,
+Patryk S.,tt2294629,Frozen,5.0,4.2558,0.7442,4.8773,0.1227
+Patryk S.,tt9376612,Shang-Chi and the Legend of the Ten Rings,4.0,,,,
+Patryk S.,tt2442560,Peaky Blinders,6.0,7.0998,1.0998,6.9972,0.9972
+Patryk S.,tt1981128,Geostorm,3.0,6.3502,3.3502,6.3410,3.3410
+Patryk S.,tt12584954,Twisters,4.0,,,,
+Patryk S.,tt0800320,Clash of the Titans,9.0,,,,
+Patryk S.,tt4574334,Stranger Things,8.0,,,,
+Patryk S.,tt5127824,Family Demolition,8.0,,,,
+Patryk S.,tt4978420,Borderlands,2.0,4.1746,2.1746,4.7770,2.7770
+Patryk S.,tt0099785,Home Alone,5.0,7.5046,2.5046,7.1806,2.1806
+Jakub K.,tt1856101,Blade Runner 2049,9.0,7.8081,1.1919,7.7553,1.2447
+Jakub K.,tt15239678,Dune: Part Two,8.0,9.0348,1.0348,8.5930,0.5930
+Jakub K.,tt0290988,Trailer Park Boys,10.0,6.9895,3.0105,7.1464,2.8536
+Jakub K.,tt0387808,Idiocracy,9.0,7.6821,1.3179,7.6756,1.3244
+Jakub K.,tt0064072,Battle of Britain,7.0,,,,
+Jakub K.,tt29420686,1670,4.0,7.2279,3.2279,7.3384,3.3384
+Jakub K.,tt12042730,Project Hail Mary,7.0,8.2461,1.2461,8.1504,1.1504
+Jakub K.,tt0127626,Kiler,9.0,9.0403,0.0403,8.6868,0.3132
+Jakub K.,tt6468322,Money Heist,6.0,8.4883,2.4883,8.2528,2.2528
+Jakub K.,tt30144839,One Battle After Another,6.0,6.5988,0.5988,6.8377,0.8377
+Jakub K.,tt2442560,Peaky Blinders,9.0,8.4867,0.5133,8.3823,0.6177
+Jakub K.,tt1927077,Letters to Santa,2.0,5.2551,3.2551,5.7894,3.7894
+Jakub K.,tt0993846,The Wolf of Wall Street,10.0,9.3759,0.6241,8.9271,1.0729
+Jakub K.,tt1645170,The Dictator,6.0,8.1741,2.1741,7.9998,1.9998
+Jakub K.,tt15398776,Oppenheimer,9.0,8.8901,0.1099,8.9401,0.0599
+Jakub K.,tt0903747,Breaking Bad,10.0,9.2700,0.7300,8.8059,1.1941
+Jakub K.,tt13282160,Kapitan Bomba - Zemsta Faraona,7.0,,,,
+Jakub K.,tt0773262,Dexter,9.0,9.0002,0.0002,8.8982,0.1018
+Jakub K.,tt0082096,Das Boot,9.0,9.7721,0.7721,9.1584,0.1584
+Jakub K.,tt3230854,The Expanse,8.0,7.5992,0.4008,7.6396,0.3604
+Jakub K.,tt2861424,Rick and Morty,10.0,10.1109,0.0000,9.2254,0.7746
+Jakub K.,tt0384766,Rome,10.0,,,,
+Jakub K.,tt27497448,A Knight of the Seven Kingdoms,9.0,8.9933,0.0067,8.5553,0.4447
+Jakub K.,tt2085059,Black Mirror,8.0,,,8.6896,0.6896
+Jakub K.,tt6723592,Tenet,9.0,8.5777,0.4223,8.3025,0.6975
+Jakub K.,tt12590266,Cyberpunk: Edgerunners,9.0,,,8.6378,0.3622
+Jakub K.,tt16797900,Episode 171 - Ghost in the Shell (1995),9.0,,,8.6378,0.3622
+Jakub K.,tt1099212,Twilight,1.0,3.0759,2.0759,3.4246,2.4246
+Jakub K.,tt9253284,Andor,8.0,8.4182,0.4182,8.2288,0.2288
+Jakub K.,tt0320661,Kingdom of Heaven,5.0,,,,
+Jakub K.,tt2887954,Tokyo Vice,9.0,,,,
+Jakub K.,tt0120338,Titanic,5.0,7.3302,2.3302,7.4047,2.4047
+Jakub K.,tt11198330,House of the Dragon,4.0,7.9374,3.9374,7.8888,3.8888
+Jakub K.,tt2713180,Fury,7.0,,,,
+Jakub K.,tt2278388,The Grand Budapest Hotel,9.0,9.0414,0.0414,8.5248,0.4752
+Jakub K.,tt0185906,Band of Brothers,10.0,9.1976,0.8024,8.9841,1.0159
+Jakub K.,tt1528100,Exodus: Gods and Kings,9.0,9.0403,0.0403,8.6868,0.3132
+Jakub K.,tt25601048,Se7en (1995)/A Single Man (2009) - 50 Movie Buff Specialists (Ep 51),8.0,8.4182,0.4182,8.2288,0.2288
+Jakub K.,tt0123755,Cube,7.0,,,,
+Jakub K.,tt0499549,Avatar,5.0,,,7.9531,2.9531
+Jakub K.,tt0330243,Day of the Wacko,10.0,9.0830,0.9170,9.3431,0.6569
+Pawel K.,tt36586020,Other Mommy,5.0,,,,
+Pawel K.,tt0499549,Avatar,8.0,,,6.0582,1.9418
+Pawel K.,tt6226232,Young Sheldon,7.0,,,,
+Pawel K.,tt33764258,The Odyssey,6.0,,,7.2879,1.2879
+Pawel K.,tt13443470,Wednesday,7.0,,,,
+Pawel K.,tt22084616,Spider-Man: Brand New Day,10.0,,,6.3613,3.6387
+Pawel K.,tt1517268,Barbie,8.0,,,,
+Pawel K.,tt0108071,The Secret Garden,8.0,,,,
+Pawel K.,tt5090568,Transformers: Rise of the Beasts,2.0,,,,
+Pawel K.,tt29420686,1670,9.0,,,4.9980,4.0020
+Pawel K.,tt1375666,Inception,3.0,,,,
+Pawel K.,tt0099785,Home Alone,10.0,,,6.8140,3.1860
+Pawel K.,tt0241527,Harry Potter and the Sorcerer's Stone,10.0,,,,
+Pawel K.,tt7569592,Chilling Adventures of Sabrina,7.0,,,,
+Pawel K.,tt0458352,The Devil Wears Prada,9.0,,,6.7859,2.2141
+Pawel K.,tt0903747,Breaking Bad,2.0,,,7.8343,5.8343
+Pawel K.,tt0126029,Shrek,10.0,,,7.0586,2.9414
+Pawel K.,tt3566834,A Minecraft Movie,7.0,,,,
+Pawel K.,tt19244304,It: Welcome to Derry,6.0,,,,
+Pawel K.,tt29930759,Piep*zyc Mickiewicza,9.0,,,,
+Pawel K.,tt1490017,The Lego Movie,4.0,,,,
+Pawel K.,tt8115900,The Bad Guys,2.0,,,,
+Pawel K.,tt2861424,Rick and Morty,3.0,,,8.0106,5.0106
+Pawel K.,tt0096697,The Simpsons,3.0,,,,
+Pawel K.,tt6263850,Deadpool & Wolverine,7.0,,,,
+Szymon W.,tt2442560,Peaky Blinders,8.0,7.6154,0.3846,7.4404,0.5596
+Szymon W.,tt2861424,Rick and Morty,10.0,8.0337,1.9663,7.5955,2.4045
+Szymon W.,tt0082096,Das Boot,10.0,7.3933,2.6067,7.1446,2.8554
+Szymon W.,tt0903747,Breaking Bad,9.0,8.1876,0.8124,8.0590,0.9410
+Szymon W.,tt0066473,Tora! Tora! Tora!,9.0,,,,
+Szymon W.,tt0290988,Trailer Park Boys,8.0,7.3929,0.6071,6.7993,1.2007
+Szymon W.,tt3032476,Better Call Saul,10.0,6.5906,3.4094,6.5753,3.4247
+Szymon W.,tt0072021,The Deluge,7.0,,,,
+Szymon W.,tt0120338,Titanic,7.0,5.3164,1.6836,5.5642,1.4358
+Szymon W.,tt7984734,The Lighthouse,8.0,,,,
+Szymon W.,tt0330243,Day of the Wacko,9.0,8.1014,0.8986,7.6754,1.3246
+Szymon W.,tt1099212,Twilight,2.0,2.5503,0.5503,2.9519,0.9519
+Szymon W.,tt7250358,Botoks,3.0,,,,
+Szymon W.,tt13287846,Napoleon,3.0,6.4759,3.4759,6.5870,3.5870
+Szymon W.,tt6038600,Smolensk,2.0,,,,
+Szymon W.,tt2980516,The Theory of Everything,3.0,,,,
+Maciej K.,tt3659388,The Martian,8.0,8.1817,0.1817,7.8166,0.1834
+Maciej K.,tt12590266,Cyberpunk: Edgerunners,9.0,,,7.6335,1.3665
+Maciej K.,tt3032476,Better Call Saul,9.0,7.1495,1.8505,7.0640,1.9360
+Maciej K.,tt0816692,Interstellar,10.0,8.9088,1.0912,8.4129,1.5871
+Maciej K.,tt0095705,The Naked Gun: From the Files of Police Squad!,7.0,,,,
+Maciej K.,tt2085059,Black Mirror,9.0,,,7.1378,1.8622
+Maciej K.,tt2724064,Sharknado,3.0,,,,
+Maciej K.,tt0306047,Scary Movie 3,6.0,,,,
+Maciej K.,tt30472557,Chainsaw Man - The Movie: Reze Arc,10.0,,,,
+Maciej K.,tt1517268,Barbie,7.0,,,,
+Maciej K.,tt15398776,Oppenheimer,9.0,7.7787,1.2213,7.8932,1.1068
+Maciej K.,tt0119698,Princess Mononoke,9.0,,,,
+Maciej K.,tt2798920,Annihilation,7.0,,,,
+Maciej K.,tt11126994,Arcane,9.0,,,,
+Maciej K.,tt1843303,The VelociPastor,2.0,,,,
+Maciej K.,tt16797900,Episode 171 - Ghost in the Shell (1995),9.0,,,7.6335,1.3665
+Maciej K.,tt3566834,A Minecraft Movie,5.0,6.4392,1.4392,6.6856,1.6856
+Maciej K.,tt0803096,Warcraft,4.0,6.0423,2.0423,6.1059,2.1059
+Maciej K.,tt26713645,Fright Night! - Terrifier (2016),2.0,,,,
+Maciej K.,tt1637725,Ted,6.0,5.2366,0.7634,5.7800,0.2200
+Maciej K.,tt0111161,The Shawshank Redemption,10.0,,,7.9256,2.0744
+Maciej K.,tt0167260,The Lord of the Rings: The Return of the King,10.0,8.0632,1.9368,7.4154,2.5846
+Maciej K.,tt1016150,All Quiet on the Western Front,8.0,,,,
+Maciej K.,tt0330243,Day of the Wacko,10.0,,,8.1085,1.8915
+Maciej K.,tt1431045,Deadpool,5.0,,,,
+Maciej K.,tt0094625,Akira,9.0,,,,
+Maciej K.,tt0482571,The Prestige,8.0,,,,
+Maciej K.,tt2002718,Machete Kills,4.0,,,,
+Maciej K.,tt0110622,Naked Gun 33 1/3: The Final Insult,7.0,,,,
+Maciej K.,tt2382011,The Platform Master,8.0,,,,
+Maciej K.,tt6751668,Parasite,9.0,,,,
+Maciej K.,tt12593682,Bullet Train,6.0,,,,
+Maciej K.,tt37287335,Obsession,8.0,,,,
+Maciej K.,tt0120804,Resident Evil,7.0,,,,
+Maciej K.,tt0851578,Paprika,8.0,,,,
+Maciej K.,tt0119654,Men in Black,8.0,,,,
+Maciej K.,tt10648342,Thor: Love and Thunder,4.0,,,,
+Maciej K.,tt4978420,Borderlands,2.0,5.3126,3.3126,5.8214,3.8214
+Maciej K.,tt1813757,Who Killed Captain Alex?,1.0,,,,
+Maciej K.,tt0993846,The Wolf of Wall Street,8.0,9.1048,1.1048,8.8275,0.8275
+Maciej K.,tt16311594,F1: The Movie,8.0,7.1718,0.8282,7.1316,0.8684
+Jakub T.,tt33764258,The Odyssey,9.0,8.4195,0.5805,7.7317,1.2683
+Jakub T.,tt0903747,Breaking Bad,10.0,8.6475,1.3525,7.6998,2.3002
+Jakub T.,tt2442560,Peaky Blinders,8.0,7.8280,0.1720,7.7167,0.2833
+Jakub T.,tt0111161,The Shawshank Redemption,9.0,9.4145,0.4145,9.1329,0.1329
+Jakub T.,tt0141842,The Sopranos,8.0,,,,
+Jakub T.,tt0290988,Trailer Park Boys,4.0,8.5567,4.5567,8.2185,4.2185
+Jakub T.,tt2294629,Frozen,3.0,6.4657,3.4657,6.5146,3.5146
+Jakub T.,tt29420686,1670,2.0,6.9065,4.9065,7.0233,5.0233
+Jakub T.,tt1927077,Letters to Santa,3.0,4.3566,1.3566,4.8325,1.8325
+Jakub T.,tt32916440,Marty Supreme,6.0,4.0699,1.9301,5.0801,0.9199
+Jakub T.,tt1830379,Top Boy,8.0,,,,
+Jakub T.,tt15398776,Oppenheimer,8.0,8.2242,0.2242,8.2156,0.2156
+Jakub T.,tt0993846,The Wolf of Wall Street,9.0,8.9469,0.0531,8.5633,0.4367
+Jakub T.,tt0137523,Fight Club,10.0,7.6877,2.3123,7.4469,2.5531
+Jakub T.,tt0120338,Titanic,6.0,5.9587,0.0413,6.3185,0.3185
+Jakub T.,tt0099785,Home Alone,9.0,6.2161,2.7839,7.0334,1.9666
+Jakub T.,tt0773262,Dexter,7.0,8.6236,1.6236,8.3936,1.3936
+Jakub T.,tt0126029,Shrek,10.0,8.6088,1.3912,8.5006,1.4994
+Jakub T.,tt43587135,Bukayo Saka: The Time is Now,6.0,,,,
+Jakub T.,tt16426418,Challengers,5.0,,,,
+Jakub T.,tt0120689,The Green Mile,6.0,8.2554,2.2554,7.6615,1.6615
+Jakub T.,tt0185906,Band of Brothers,8.0,9.0852,1.0852,8.5353,0.5353
+Jakub T.,tt22084616,Spider-Man: Brand New Day,7.0,7.3167,0.3167,7.8779,0.8779
+Jakub T.,tt3032476,Better Call Saul,7.0,8.6771,1.6771,8.2201,1.2201
+Jakub T.,tt26596953,Forgotten Love,6.0,8.5753,2.5753,8.1266,2.1266
+Jakub T.,tt10804178,How I Became a Gangster,8.0,7.4697,0.5303,7.3296,0.6704
+Jakub T.,tt0068646,The Godfather,9.0,,,,
+Jakub T.,tt0071562,The Godfather Part II,7.0,,,,
+Jakub T.,tt0109830,Forrest Gump,7.0,8.6413,1.6413,8.4207,1.4207
+Jakub T.,tt0317219,Cars,8.0,7.4456,0.5544,6.9067,1.0933
+Jakub T.,tt2322441,Fifty Shades of Grey,1.0,4.0863,3.0863,4.8368,3.8368
+Jakub T.,tt0079116,Escape from Alcatraz,8.0,,,,
+Jakub T.,tt0264464,Catch Me If You Can,6.0,7.3417,1.3417,7.2665,1.2665
+Jakub T.,tt6468322,Money Heist,8.0,7.2685,0.7315,7.0457,0.9543
+Jakub T.,tt0455275,Prison Break,8.0,,,,
+Jakub T.,tt0104431,Home Alone 2: Lost in New York,7.0,,,,
+Jakub T.,tt0816692,Interstellar,8.0,9.2127,1.2127,8.9732,0.9732
+Jakub T.,tt0110912,Pulp Fiction,7.0,7.7494,0.7494,7.5150,0.5150
+Jakub T.,tt0099685,GoodFellas,8.0,,,,
+Jakub T.,tt0172495,Gladiator,7.0,8.6145,1.6145,8.2357,1.2357
+Jakub T.,tt0133093,The Matrix,8.0,6.2167,1.7833,6.5377,1.4623
+Maciej M.,tt0167260,The Lord of the Rings: The Return of the King,10.0,7.9847,2.0153,7.8218,2.1782
+Maciej M.,tt0071853,Monty Python and the Holy Grail,9.0,,,,
+Maciej M.,tt3230854,The Expanse,7.0,7.0750,0.0750,7.0163,0.0163
+Maciej M.,tt1099212,Twilight,1.0,1.8885,0.8885,2.4802,1.4802
+Maciej M.,tt0099810,The Hunt for Red October,7.0,7.8076,0.8076,7.9218,0.9218
+Maciej M.,tt0121955,South Park,7.0,7.5127,0.5127,7.5535,0.5535
+Maciej M.,tt3720788,The Disappearance of Eleanor Rigby: Her,7.0,6.2266,0.7734,6.5747,0.4253
+Maciej M.,tt2582802,Whiplash,6.0,7.5615,1.5615,7.9155,1.9155
+Maciej M.,tt6468322,Money Heist,7.0,7.0132,0.0132,7.0771,0.0771
+Maciej M.,tt32916440,Marty Supreme,2.0,6.4385,4.4385,6.6524,4.6524
+Maciej M.,tt1663662,Pacific Rim,8.0,7.0172,0.9828,7.1410,0.8590
+Maciej M.,tt6710474,Everything Everywhere All at Once,4.0,,,,
+Maciej M.,tt0816692,Interstellar,10.0,8.7222,1.2778,8.5426,1.4574
+Maciej M.,tt12042730,Project Hail Mary,8.0,6.7518,1.2482,6.7705,1.2295
+Maciej M.,tt0903624,The Hobbit: An Unexpected Journey,8.0,,,,
+Maciej M.,tt1375666,Inception,8.0,,,,
+Maciej M.,tt1130884,Shutter Island,8.0,,,,
+Maciej M.,tt2294629,Frozen,7.0,4.6859,2.3141,5.2498,1.7502
+Maciej M.,tt1927077,Letters to Santa,2.0,4.4415,2.4415,5.1245,3.1245
+Maciej M.,tt6723592,Tenet,8.0,7.7836,0.2164,7.7044,0.2956
+Maciej M.,tt6966692,Green Book,7.0,,,,
+Maciej M.,tt8946378,Knives Out,10.0,,,,
+Maciej M.,tt14205554,KPop Demon Hunters,8.0,,,,
+Maciej M.,tt1637725,Ted,4.0,6.3955,2.3955,6.5842,2.5842
+Maciej M.,tt0360486,Constantine,7.0,,,,
+Maciej M.,tt5712554,The Grand Tour,6.0,,,,
+Maciej M.,tt1846589,Hunter Killer,8.0,,,,
+Maciej M.,tt0172495,Gladiator,9.0,7.4283,1.5717,7.6048,1.3952
+Maciej M.,tt0109830,Forrest Gump,8.0,8.3187,0.3187,8.3254,0.3254
+Maciej M.,tt0121766,Star Wars: Episode III - Revenge of the Sith,8.0,7.9134,0.0866,7.6522,0.3478
+Maciej M.,tt32565993,The Sheep Detectives,8.0,,,,
+Maciej M.,tt2094766,Assassin's Creed,3.0,,,,
+Maciej M.,tt0803096,Warcraft,6.0,5.1925,0.8075,5.5319,0.4681
+Maciej M.,tt2557478,Pacific Rim: Uprising,1.0,6.4105,5.4105,6.6931,5.6931
+Maciej M.,tt1981128,Geostorm,7.0,5.2746,1.7254,5.8889,1.1111
+Maciej M.,tt0126029,Shrek,10.0,8.4566,1.5434,7.9524,2.0476
+Maciej M.,tt0368891,National Treasure,9.0,,,,
+Maciej M.,tt0892769,How to Train Your Dragon,8.0,,,,
+Maciej M.,tt3659388,The Martian,9.0,7.4627,1.5373,7.2889,1.7111
+Maciej M.,tt1596363,The Big Short,8.0,,,,
+Maciej M.,tt0387808,Idiocracy,7.0,7.8166,0.8166,7.6402,0.6402
+Igor C.,tt29420686,1670,8.0,7.2364,0.7636,6.6836,1.3164
+Igor C.,tt8855592,The Mire,9.0,8.1827,0.8173,8.0567,0.9433
+Igor C.,tt2395427,Avengers: Age of Ultron,4.0,6.1582,2.1582,6.0357,2.0357
+Igor C.,tt0109830,Forrest Gump,10.0,9.3695,0.6305,8.9167,1.0833
+Igor C.,tt25602274,Ex Machina (2014)/Crash (2004) - 74 Movie Buff Specialists (Ep 27),9.0,9.4717,0.4717,9.0243,0.0243
+Igor C.,tt1205489,Gran Torino,8.0,8.8550,0.8550,8.5675,0.5675
+Igor C.,tt0804484,Foundation,10.0,,,,
+Igor C.,tt1160419,Dune,9.0,6.5722,2.4278,6.7813,2.2187
+Igor C.,tt15239678,Dune: Part Two,10.0,7.8662,2.1338,7.8043,2.1957
+Igor C.,tt10466872,Dune: Prophecy,5.0,,,,
+Igor C.,tt5875444,Slow Horses,9.0,,,,
+Igor C.,tt2935510,Ad Astra,6.0,7.1785,1.1785,7.4112,1.4112
+Igor C.,tt12042730,Project Hail Mary,8.0,7.9429,0.0571,7.9018,0.0982
+Igor C.,tt1856101,Blade Runner 2049,8.0,8.5209,0.5209,8.2566,0.2566
+Igor C.,tt0816692,Interstellar,10.0,10.2244,0.0000,9.6303,0.3697
+Igor C.,tt7631058,The Lord of the Rings: The Rings of Power,5.0,,,,
+Igor C.,tt0167260,The Lord of the Rings: The Return of the King,10.0,8.8118,1.1882,8.8045,1.1955
+Igor C.,tt34476674,Hound's Hill,6.0,,,,
+Igor C.,tt15398776,Oppenheimer,9.0,9.2465,0.2465,8.9286,0.0714
+Igor C.,tt0128378,With Fire and Sword,8.0,,,,
+Igor C.,tt0903747,Breaking Bad,8.0,9.5598,1.5598,9.4103,1.4103
+Igor C.,tt0944947,Game of Thrones,9.0,8.4489,0.5511,8.2508,0.7492
+Igor C.,tt11198330,House of the Dragon,8.0,5.4573,2.5427,6.1367,1.8633
+Igor C.,tt27497448,A Knight of the Seven Kingdoms,10.0,8.4574,1.5426,8.2025,1.7975
+Igor C.,tt3032476,Better Call Saul,8.0,9.4464,1.4464,8.8681,0.8681
+Igor C.,tt16311594,F1: The Movie,8.0,8.3667,0.3667,8.2175,0.2175
+Igor C.,tt6048922,Greyhound,7.0,,,,
+Igor C.,tt6723592,Tenet,8.0,8.9488,0.9488,8.6470,0.6470
+Igor C.,tt11858890,The Creator,9.0,,,,
+Igor C.,tt1099212,Twilight,1.0,3.5498,2.5498,3.5772,2.5772
+Igor C.,tt30144839,One Battle After Another,6.0,6.7091,0.7091,6.9940,0.9940
+Igor C.,tt0317219,Cars,5.0,8.1148,3.1148,8.2781,3.2781
+Igor C.,tt5040012,Nosferatu,7.0,,,,
+Igor C.,tt2582802,Whiplash,9.0,8.0634,0.9366,7.9625,1.0375
+Igor C.,tt2911666,John Wick,6.0,8.4109,2.4109,8.1272,2.1272
+Igor C.,tt0803096,Warcraft,6.0,6.2360,0.2360,6.2398,0.2398
+Igor C.,tt0185906,Band of Brothers,9.0,9.8497,0.8497,9.2937,0.2937
+Igor C.,tt13654226,The Gorge,9.0,,,,
+Natan B.,tt0120804,Resident Evil,6.0,,,,
+Natan B.,tt22084616,Spider-Man: Brand New Day,8.0,7.3355,0.6645,7.5778,0.4222
+Natan B.,tt0264464,Catch Me If You Can,8.0,6.8910,1.1090,7.0225,0.9775
+Natan B.,tt37287335,Obsession,8.0,,,,
+Natan B.,tt13405778,Insidious: The Red Door,6.0,,,,
+Natan B.,tt31181421,iHostage,4.0,,,,
+Natan B.,tt5649074,Déjà Vu,8.0,,,,
+Natan B.,tt1499228,Galerianki,5.0,,,,
+Natan B.,tt5040012,Nosferatu,6.0,,,,
+Natan B.,tt0903747,Breaking Bad,10.0,,,7.4446,2.5554
+Natan B.,tt0455944,The Equalizer,8.0,,,,
+Natan B.,tt0489099,Jumper,9.0,,,,
+Natan B.,tt23137390,Immaculate,5.0,,,,
+Natan B.,tt2119532,Hacksaw Ridge,10.0,,,,
+Natan B.,tt2861424,Rick and Morty,10.0,,,6.8495,3.1505
+Marceli G.,tt0816692,Interstellar,10.0,8.3148,1.6852,8.0933,1.9067
+Marceli G.,tt0107688,The Nightmare Before Christmas,9.0,,,,
+Marceli G.,tt11315808,Joker: Folie à Deux,2.0,,,,
+Marceli G.,tt0121164,Corpse Bride,9.0,,,,
+Marceli G.,tt1312221,Frankenstein,8.0,,,,
+Marceli G.,tt0162661,Sleepy Hollow,9.0,,,,
+Marceli G.,tt0099487,Edward Scissorhands,10.0,,,,
+Marceli G.,tt2861424,Rick and Morty,10.0,8.6628,1.3372,8.0390,1.9610
+Marceli G.,tt3498820,Captain America: Civil War,6.0,4.5046,1.4954,5.4044,0.5956
+Marceli G.,tt2395427,Avengers: Age of Ultron,8.0,3.4967,4.5033,4.3619,3.6381
+Marceli G.,tt0103064,Terminator 2: Judgment Day,9.0,7.8372,1.1628,7.4519,1.5481
+Marceli G.,tt5127398,Planet Single,7.0,6.7451,0.2549,6.8067,0.1933
+Marceli G.,tt1927077,Letters to Santa,8.0,4.1306,3.8694,4.0445,3.9555
+Marceli G.,tt0109830,Forrest Gump,10.0,8.1106,1.8894,7.8632,2.1368
+Marceli G.,tt1517451,A Star Is Born,8.0,3.7032,4.2968,4.8254,3.1746
+Marceli G.,tt2278388,The Grand Budapest Hotel,9.0,7.9641,1.0359,7.5902,1.4098
+Marceli G.,tt2911666,John Wick,9.0,6.0607,2.9393,6.3399,2.6601
+Marceli G.,tt3720788,The Disappearance of Eleanor Rigby: Her,6.0,7.2004,1.2004,7.1287,1.1287
+Marceli G.,tt6468322,Money Heist,9.0,6.8681,2.1319,6.8812,2.1188
+Marceli G.,tt7286456,Joker,8.0,,,,
+Marceli G.,tt6723592,Tenet,9.0,7.5131,1.4869,7.3429,1.6571
+Marceli G.,tt0468569,The Dark Knight,10.0,,,,
+Marceli G.,tt1345836,The Dark Knight Rises,9.0,,,,
+Marceli G.,tt1196946,The Mentalist,10.0,,,,
+Marceli G.,tt2293640,Minions,10.0,,,,
+Marceli G.,tt0121766,Star Wars: Episode III - Revenge of the Sith,9.0,7.3442,1.6558,7.2136,1.7864
+Marceli G.,tt7133554,Silent Night,1.0,3.7965,2.7965,4.8712,3.8712
+Marceli G.,tt6208148,Snow White,1.0,,,,
+Marceli G.,tt10676048,The Marvels,1.0,,,,
+Marceli G.,tt0120689,The Green Mile,9.0,6.2598,2.7402,6.5568,2.4432
+Marceli G.,tt26657236,Backrooms,2.0,,,,
+Marceli G.,tt3291150,The Expendables 4,2.0,,,,
+Marceli G.,tt4126476,After,3.0,,,,
+Marceli G.,tt1788453,The Amazing Bulk,10.0,,,,
+Marceli G.,tt0165662,Candyman: Day of the Dead,2.0,,,,
+Marceli G.,tt3120314,Shark Exorcist,8.0,,,,
+Marceli G.,tt12969958,Trump vs the Illuminati,9.0,,,,
+Marceli G.,tt36586020,Other Mommy,3.0,,,,
+Marceli G.,tt1098327,Dragonball: Evolution,4.0,,,,
+Marceli G.,tt19623240,Winnie-the-Pooh: Blood and Honey,2.0,,,,
+Marceli G.,tt5690360,Slender Man,5.0,,,,
+Karol S.,tt9253284,Andor,8.0,7.0306,0.9694,6.9782,1.0218
+Karol S.,tt1467304,The Human Centipede (First Sequence),1.0,,,,
+Karol S.,tt0185906,Band of Brothers,10.0,8.0658,1.9342,7.8983,2.1017
+Karol S.,tt0374463,The Pacific,9.0,,,,
+Karol S.,tt0944947,Game of Thrones,8.0,7.6473,0.3527,7.4289,0.5711
+Karol S.,tt5200568,BAFTA: 'Black Hawk Down' Cast & Crew Q&A,7.0,,,,
+Karol S.,tt0120338,Titanic,6.0,5.8041,0.1959,5.9167,0.0833
+Karol S.,tt0171804,Boys Don't Cry,8.0,,,,
+Karol S.,tt0127626,Kiler,9.0,7.6531,1.3469,7.4362,1.5638
+Karol S.,tt1457767,The Conjuring,6.0,,,,
+Karol S.,tt1321870,Gangster Squad,8.0,,,,
+Karol S.,tt2442560,Peaky Blinders,8.0,7.9385,0.0615,7.7824,0.2176
+Karol S.,tt0073486,One Flew Over the Cuckoo's Nest,9.0,,,,
+Karol S.,tt0050083,12 Angry Men,10.0,,,,
+Karol S.,tt18930694,Gone in Sixty Seconds at Ascot Raceway,6.0,,,,
+Karol S.,tt0111161,The Shawshank Redemption,10.0,8.6951,1.3049,8.1755,1.8245
+Karol S.,tt13287846,Napoleon,6.0,4.5726,1.4274,5.0607,0.9393
+Karol S.,tt0773262,Dexter,8.0,8.0133,0.0133,7.8309,0.1691
+Karol S.,tt0903747,Breaking Bad,9.0,8.4166,0.5834,8.2010,0.7990
+Karol S.,tt29420686,1670,7.0,4.9023,2.0977,5.2345,1.7655
+Karol S.,tt0107798,The Pelican Brief,7.0,,,,
+Karol S.,tt0172495,Gladiator,9.0,7.2616,1.7384,7.4421,1.5579
+Karol S.,tt0268978,A Beautiful Mind,8.0,,,,
+Karol S.,tt0110912,Pulp Fiction,8.0,6.7952,1.2048,6.8052,1.1948
+Karol S.,tt10886166,365 Days,1.0,,,,
+Karol S.,tt1099212,Twilight,1.0,2.3324,1.3324,2.3456,1.3456
+Karol S.,tt2322441,Fifty Shades of Grey,1.0,3.7825,2.7825,4.5580,3.5580
+Karol S.,tt0112573,Braveheart,8.0,8.2750,0.2750,7.8703,0.1297
+Karol S.,tt0865951,Testosteron,6.0,,,,
+Karol S.,tt1175505,Ladies,5.0,,,,
+Karol S.,tt0454841,The Hills Have Eyes,2.0,,,,
+Karol S.,tt2707408,Narcos,9.0,8.1117,0.8883,7.7927,1.2073
+Karol S.,tt0109830,Forrest Gump,8.0,8.1025,0.1025,8.0006,0.0006
+Karol S.,tt0120815,Saving Private Ryan,8.0,,,,
+Karol S.,tt0195714,Final Destination,4.0,,,,
+Karol S.,tt1528100,Exodus: Gods and Kings,9.0,7.6531,1.3469,7.4362,1.5638
+Karol S.,tt1727824,Bohemian Rhapsody,7.0,,,,
+Karol S.,tt0137523,Fight Club,8.0,8.6598,0.6598,8.0398,0.0398
+Karol S.,tt25601048,Se7en (1995)/A Single Man (2009) - 50 Movie Buff Specialists (Ep 51),8.0,7.0306,0.9694,6.9782,1.0218
+Karol S.,tt0356910,Mr. & Mrs. Smith,6.0,,,,
+Karol S.,tt0107048,Groundhog Day,5.0,,,,
+Jakub G.,tt0050083,12 Angry Men,10.0,,,,
+Jakub G.,tt0083658,Blade Runner,10.0,,,,
+Jakub G.,tt0317219,Cars,6.0,,,,
