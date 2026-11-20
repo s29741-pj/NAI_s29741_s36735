@@ -117,3 +117,75 @@ Przy każdej pozycji program wypisuje też gatunek, długość, reżysera, ocen�
 - P. Resnick i in., *GroupLens: An Open Architecture for Collaborative Filtering of Netnews*, CSCW 1994
 - J. Herlocker i in., *An Algorithmic Framework for Performing Collaborative Filtering*, SIGIR 1999
 - [OMDb API](https://www.omdbapi.com/)
+
+## Ewaluacja algorytmu (Leave-One-Out)
+
+Ocenianie rekomendacji „na oko” nie mówi, jak dobrze algorytm przewiduje gusty. Dlatego napisaliśmy `test_recommender.py`, który sprawdza trafność predykcji na danych, które już mamy.
+
+### Jak działa Leave-One-Out
+
+W metodzie Leave-One-Out każda ocena jest po kolei ukrywana, a algorytm ma ją odtworzyć na podstawie pozostałych danych:
+
+- Każdy eksperyment tymczasowo usuwa dokładnie **jedną** ocenę. Wszystkie pozostałe oceny są zachowane.
+- Pearson i Euclidean dostają **identyczne** dane treningowe.
+- Istniejąca funkcja `predict_ratings()` nie jest zmieniana. Próbuje odtworzyć usuniętą ocenę.
+- Eksperyment powtarzamy dla każdej z 455 ocen w zbiorze (14 użytkowników).
+- Gdy metryka nie daje predykcji, przypadek wlicza się do Coverage, ale jest pomijany w MAE i RMSE.
+
+Metryki:
+
+- **MAE** (*Mean Absolute Error*): średni bezwzględny błąd predykcji. Im mniej, tym lepiej.
+- **RMSE** (*Root Mean Squared Error*): pierwiastek ze średniego kwadratu błędów. Mocniej karze duże pomyłki.
+- **Coverage**: procent ukrytych ocen, które algorytm zdołał przewidzieć.
+
+### Wyniki
+
+Wyniki z `python3 test_recommender.py` dla aktualnej implementacji (`MIN_COMMON_PEARSON = 2`, `MIN_COMMON_EUCLIDEAN = 1`):
+
+| Metryka | Pearson | Euclidean | Znaczenie |
+|---|---:|---:|---|
+| Predykcje | 235 | 270 | Liczba ocen, które algorytm zdołał przewidzieć spośród 455 prób. |
+| Coverage | 51,6% | 59,3% | Odsetek prób zakończonych uzyskaniem predykcji. Im wyższy, tym lepiej. |
+| MAE (średni błąd bezwzględny) | **1,478** | 1,604 | Średnia różnica między oceną rzeczywistą a przewidywaną, wyrażona w punktach skali 1–10. Im niższy wynik, tym dokładniejsze predykcje. |
+| RMSE (pierwiastek średniego błędu kwadratowego) | **1,887** | 2,026 | Miara błędu, która silniej karze duże pomyłki. Im niższy wynik, tym lepiej. |
+|
+
+Przykłady z `test_results/results.csv`, wybrane tak, by pokazać zarówno trafne predykcje, jak i ograniczenia:
+
+| Użytkownik | Film | Ocena rzeczywista | Pearson | Euclidean |
+|---|---|---|---|---|
+| Karol S. | Peaky Blinders | 8 | 7.94 | 7.78 |
+| Karol S. | Forrest Gump | 8 | 8.10 | 8.00 |
+| Krysia C. | 1670 | 5 | 5.43 | 5.01 |
+| Krysia C. | One Battle After Another | 5 | 5.09 | 5.36 |
+| Paweł C. | Rick and Morty | 10 | 9.09 | 7.42 |
+| Marceli G. | Other Mommy | 3 | — | 6.93 |
+| Paweł C. | Lucifer | 3 | — | — |
+| Karol S. | The Pacific | 9 | — | — |
+
+- Pearson trafniejszy: *Peaky Blinders*, *One Battle After Another*, *Rick and Morty*.
+- Euclidean trafniejszy: *Forrest Gump*, *1670*.
+- Pearson nie przewiduje, a Euclidean tak: *Other Mommy* (duży błąd, 3.93 pkt).
+- Żadna metryka nie przewiduje: *Lucifer*, *The Pacific*.
+
+### Interpretacja
+
+- Pearson ma niższe MAE na dostępnych predykcjach (1.478 wobec 1.604).
+- Euclidean ma wyższe Coverage (59.3% wobec 51.6%).
+- Metody nie przewidują dokładnie tego samego podzbioru ocen. Pearson przewidział 235 ocen, a Euclidean 270. Każdą ocenę przewidzianą przez Pearsona przewidział także Euclidean, więc 35 dodatkowych przypadków dotyczy tylko Euclidean. Ogólne MAE nie jest więc ścisłym porównaniem.
+
+Porównanie na wspólnym podzbiorze (235 ocen przewidzianych przez obie metryki):
+
+- MAE Pearson: 1.478 (taka sama wartość jak w pełnych wynikach, bo zbiór Pearsona jest podzbiorem zbioru Euclidean),
+- MAE Euclidean: 1.527.
+
+Dlaczego Coverage jest ograniczone: zbiór ma 14 użytkowników i 455 ocen, a aż 180 z nich dotyczy filmów ocenionych tylko przez jedną osobę. Po ukryciu takiej oceny żaden inny użytkownik nie ma tego filmu, więc User-Based Collaborative Filtering nie ma z czego przewidzieć oceny. Przy tym zbiorze Coverage nie może więc przekroczyć 275/455 (ok. 60.4%).
+
+### Powtórzenie eksperymentu
+
+```bash
+python3 test_recommender.py
+```
+
+Szczegółowe wyniki dla każdej oceny są zapisywane w `test_results/results.csv`. Skrypt nadpisuje ten plik przy każdym uruchomieniu.
+

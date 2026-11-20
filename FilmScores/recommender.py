@@ -82,7 +82,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RATINGS_FILE = os.path.join(BASE_DIR, "data", "ratings.json")
 CATALOG_FILE = os.path.join(BASE_DIR, "data", "catalog.json")
 
-MIN_COMMON = 2  # minimalna liczba wspólnych filmów, by liczyć podobieństwo
+MIN_COMMON_PEARSON = 2  # minimalna liczba wspólnych filmów, by liczyć podobieństwo Pearsona
+MIN_COMMON_EUCLIDEAN = 1  # minimalna liczba wspólnych filmów, by liczyć podobieństwo euklidesowe
 SHRINK = 5  # od tylu wspólnych filmów podobieństwo nie jest osłabiane
 DAMPING = 0.5  # ściąganie przewidywań słabo potwierdzonych do średniej
 METRICS = ("Euclidean", "Pearson")
@@ -120,10 +121,10 @@ def euclidean_score(dataset, user1, user2):
     :param user1: pierwszy użytkownik
     :param user2: drugi użytkownik
     :return: krotka ``(podobieństwo, liczba_wspólnych_filmów)``; 0, gdy
-             wspólnych filmów jest mniej niż ``MIN_COMMON``
+             wspólnych filmów jest mniej niż ``MIN_COMMON_EUCLIDEAN``
     """
     common = common_movies(dataset, user1, user2)
-    if len(common) < MIN_COMMON:
+    if len(common) < MIN_COMMON_EUCLIDEAN:
         return 0.0, len(common)
     mse = sum((dataset[user1][m] - dataset[user2][m]) ** 2 for m in common) / len(
         common
@@ -142,7 +143,7 @@ def pearson_score(dataset, user1, user2):
     """
     common = common_movies(dataset, user1, user2)
     n = len(common)
-    if n < MIN_COMMON:
+    if n < MIN_COMMON_PEARSON:
         return 0.0, n
     x = [dataset[user1][m] for m in common]
     y = [dataset[user2][m] for m in common]
