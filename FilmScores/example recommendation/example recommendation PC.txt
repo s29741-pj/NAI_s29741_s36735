@@ -1,0 +1,107 @@
+Użytkownik: Pawel C. (41 ocen, średnia 7.27)
+
+==============================================================================
+METRYKA: Euclidean
+==============================================================================
+  Najbardziej podobni (Euclidean):
+    Igor C.                    0.472  (surowe  0.472, wspólne filmy: 8)
+    Karol S.                   0.374  (surowe  0.374, wspólne filmy: 5)
+    Marceli G.                 0.274  (surowe  0.274, wspólne filmy: 13)
+
+  TOP 5 REKOMENDACJI
+   1. The Shawshank Redemption (1994, film): przewidywana ocena 9.0/10, na podstawie 3 os.
+      Drama, 142 min | reżyseria: Frank Darabont | IMDb: 9.3/10 | https://www.imdb.com/title/tt0111161/
+      After a banker is sentenced to life in Shawshank Prison, he forms an unlikely friendship with a seasoned inmate and clings to hope amid cruelty and corruption.
+   2. Shrek (2001, film): przewidywana ocena 9.0/10, na podstawie 3 os.
+      Animation, Adventure, Comedy, 90 min | reżyseria: Andrew Adamson, Vicky Jenson | IMDb: 7.9/10 | https://www.imdb.com/title/tt0126029/
+      A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.
+   3. Interstellar (2014, film): przewidywana ocena 9.0/10, na podstawie 4 os.
+      Adventure, Sci-Fi, 169 min | reżyseria: Christopher Nolan | IMDb: 8.7/10 | https://www.imdb.com/title/tt0816692/
+      In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.
+   4. Band of Brothers (2001, serial): przewidywana ocena 8.7/10, na podstawie 4 os.
+      Action, Drama, History, 594 min | reżyseria: N/A | IMDb: 9.4/10 | https://www.imdb.com/title/tt0185906/
+      The men of Easy Company, 506th Parachute Infantry Regiment, train for war and fight across Europe during World War II, forging bonds of brotherhood amid the brutal realities of combat.
+   5. The Wolf of Wall Street (2013, film): przewidywana ocena 8.7/10, na podstawie 3 os.
+      Biography, Comedy, Crime, 180 min | reżyseria: Martin Scorsese | IMDb: 8.2/10 | https://www.imdb.com/title/tt0993846/
+      Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.
+
+  TOP 5 ANTYREKOMENDACJI
+   1. Twilight (2008, film): przewidywana ocena 2.6/10, na podstawie 6 os.
+      Drama, Fantasy, Romance, 122 min | reżyseria: Catherine Hardwicke | IMDb: 5.4/10 | https://www.imdb.com/title/tt1099212/
+      When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire.
+   2. Fifty Shades of Grey (2015, film): przewidywana ocena 4.1/10, na podstawie 2 os.
+      Drama, Romance, Thriller, 125 min | reżyseria: Sam Taylor-Johnson | IMDb: 4.2/10 | https://www.imdb.com/title/tt2322441/
+      Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.
+   3. The Human Centipede (First Sequence) (2010, film): przewidywana ocena 4.8/10, na podstawie 1 os.
+      Horror, 92 min | reżyseria: Tom Six | IMDb: 4.4/10 | https://www.imdb.com/title/tt1467304/
+      A mad scientist kidnaps and mutilates a trio of tourists in order to reassemble them into a human centipede, created by stitching their mouths to each others' rectums.
+   4. 365 Days (2020, film): przewidywana ocena 4.8/10, na podstawie 1 os.
+      Drama, Romance, 114 min | reżyseria: Barbara Bialowas, Tomasz Mandes | IMDb: 3.3/10 | https://www.imdb.com/title/tt10886166/
+      Massimo is a member of the Sicilian Mafia family and Laura is a sales director. She does not expect that on a trip to Sicily trying to save her relationship, Massimo will kidnap her and give her 365 days to fall in love with him.
+   5. Snow White (2025, film): przewidywana ocena 5.2/10, na podstawie 1 os.
+      Adventure, Family, Fantasy, 109 min | reżyseria: Marc Webb | IMDb: 2.2/10 | https://www.imdb.com/title/tt6208148/
+      A princess joins forces with seven dwarfs and a group of rebels to liberate her kingdom from her cruel stepmother the Evil Queen.
+
+==============================================================================
+METRYKA: Pearson
+==============================================================================
+  Najbardziej podobni (Pearson):
+    Igor C.                    0.923  (surowe  0.923, wspólne filmy: 8)
+    Marceli G.                 0.674  (surowe  0.674, wspólne filmy: 13)
+    Karol S.                   0.645  (surowe  0.645, wspólne filmy: 5)
+
+  TOP 5 REKOMENDACJI
+   1. The Shawshank Redemption (1994, film): przewidywana ocena 9.4/10, na podstawie 3 os.
+      Drama, 142 min | reżyseria: Frank Darabont | IMDb: 9.3/10 | https://www.imdb.com/title/tt0111161/
+      After a banker is sentenced to life in Shawshank Prison, he forms an unlikely friendship with a seasoned inmate and clings to hope amid cruelty and corruption.
+   2. Interstellar (2014, film): przewidywana ocena 9.2/10, na podstawie 4 os.
+      Adventure, Sci-Fi, 169 min | reżyseria: Christopher Nolan | IMDb: 8.7/10 | https://www.imdb.com/title/tt0816692/
+      In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.
+   3. Shrek (2001, film): przewidywana ocena 9.0/10, na podstawie 2 os.
+      Animation, Adventure, Comedy, 90 min | reżyseria: Andrew Adamson, Vicky Jenson | IMDb: 7.9/10 | https://www.imdb.com/title/tt0126029/
+      A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.
+   4. Edward Scissorhands (1990, film): przewidywana ocena 9.0/10, na podstawie 1 os.
+      Drama, Fantasy, Romance, 105 min | reżyseria: Tim Burton | IMDb: 7.8/10 | https://www.imdb.com/title/tt0099487/
+      An unfinished creation leaves his isolated castle and enters a suburban world eager to embrace him ~ until his differences become impossible to ignore. What begins as a modern fairy tale gradually becomes a story about loneliness,...
+   5. The Dark Knight (2008, film): przewidywana ocena 9.0/10, na podstawie 1 os.
+      Crime, Thriller, 152 min | reżyseria: Christopher Nolan | IMDb: 9.1/10 | https://www.imdb.com/title/tt0468569/
+      When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.
+
+  TOP 5 ANTYREKOMENDACJI
+   1. Twilight (2008, film): przewidywana ocena 2.1/10, na podstawie 6 os.
+      Drama, Fantasy, Romance, 122 min | reżyseria: Catherine Hardwicke | IMDb: 5.4/10 | https://www.imdb.com/title/tt1099212/
+      When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire.
+   2. Fifty Shades of Grey (2015, film): przewidywana ocena 3.2/10, na podstawie 2 os.
+      Drama, Romance, Thriller, 125 min | reżyseria: Sam Taylor-Johnson | IMDb: 4.2/10 | https://www.imdb.com/title/tt2322441/
+      Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.
+   3. Snow White (2025, film): przewidywana ocena 3.9/10, na podstawie 1 os.
+      Adventure, Family, Fantasy, 109 min | reżyseria: Marc Webb | IMDb: 2.2/10 | https://www.imdb.com/title/tt6208148/
+      A princess joins forces with seven dwarfs and a group of rebels to liberate her kingdom from her cruel stepmother the Evil Queen.
+   4. The Marvels (2023, film): przewidywana ocena 3.9/10, na podstawie 1 os.
+      Action, Adventure, Sci-Fi, 105 min | reżyseria: Nia DaCosta | IMDb: 5.4/10 | https://www.imdb.com/title/tt10676048/
+      Carol Danvers gets her powers entangled with those of Kamala Khan and Monica Rambeau, forcing them to work together to save the universe.
+   5. The Human Centipede (First Sequence) (2010, film): przewidywana ocena 4.0/10, na podstawie 1 os.
+      Horror, 92 min | reżyseria: Tom Six | IMDb: 4.4/10 | https://www.imdb.com/title/tt1467304/
+      A mad scientist kidnaps and mutilates a trio of tourists in order to reassemble them into a human centipede, created by stitching their mouths to each others' rectums.
+
+==============================================================================
+PORÓWNANIE METRYK
+==============================================================================
+
+  Rekomendacje:
+   Euclidean                            | Pearson
+   The Shawshank Redemption (9.0)       | The Shawshank Redemption (9.4)
+   Shrek (9.0)                          | Interstellar (9.2)
+   Interstellar (9.0)                   | Shrek (9.0)
+   Band of Brothers (8.7)               | Edward Scissorhands (9.0)
+   The Wolf of Wall Street (8.7)        | The Dark Knight (9.0)
+   Wspólne pozycje: 3/5: Interstellar, Shrek, The Shawshank Redemption
+
+  Antyrekomendacje:
+   Euclidean                            | Pearson
+   Twilight (2.6)                       | Twilight (2.1)
+   Fifty Shades of Grey (4.1)           | Fifty Shades of Grey (3.2)
+   The Human Centipede (First Seq (4.8) | Snow White (3.9)
+   365 Days (4.8)                       | The Marvels (3.9)
+   Snow White (5.2)                     | The Human Centipede (First Seq (4.0)
+   Wspólne pozycje: 4/5: Fifty Shades of Grey, Snow White, The Human Centipede (First Sequence), Twilight
